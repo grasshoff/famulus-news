@@ -21,47 +21,47 @@
     "de": {
       "subject": "Famulus News, Oktober 2026",
       "preview": "Die erste Ausgabe: der Kármán-Nachlass in der Alpha-Ansicht, mit Erläuterungen zu den Stellen, die Sie markieren, Ihre Daten unter der Schutzstufe Ihrer Wahl, Quellen und Abbildungen zum Zitieren, Dossiers aus Belegen, Sätze mit ihren Gründen, ein Wörterbuch, das nach Kontext liest, und ein Wegweiser für jede Leserin und jeden Leser. Die Famulus News gibt es jetzt auch per Mail.",
-      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de",
+      "url": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de",
       "url_tailnet": null
     },
     "en": {
       "subject": "Famulus News, October 2026",
       "preview": "The first issue: the Kármán papers open for alpha viewing, with explanations of the passages you select, your data under the protection level you choose, sources and figures you can cite, dossiers built from references, sentences with their reasons, a dictionary that reads by context, and a guide for every reader. Famulus News now also comes by mail.",
-      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en",
+      "url": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en",
       "url_tailnet": null
     },
     "fr": {
       "subject": "Famulus News, octobre 2026",
       "preview": "Le premier numéro : le fonds Kármán ouvert en vue alpha, avec des explications des passages que vous sélectionnez, vos données sous le niveau de protection que vous choisissez, des sources et des figures que l’on peut citer, des dossiers construits à partir de références, des phrases avec leurs raisons, un dictionnaire qui lit selon le contexte et un guide pour chaque lecteur. Famulus News arrive désormais aussi par courriel.",
-      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr",
+      "url": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr",
       "url_tailnet": null
     },
     "it": {
       "subject": "Famulus News, ottobre 2026",
       "preview": "Il primo numero: il fondo Kármán aperto alla vista alpha, con spiegazioni dei passi che selezionate, i vostri dati al livello di protezione che scegliete, fonti e figure da citare, dossier costruiti da riferimenti, frasi con le loro ragioni, un dizionario che legge secondo il contesto e una guida per ogni lettore. Famulus News ora arriva anche per e-mail.",
-      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it",
+      "url": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it",
       "url_tailnet": null
     },
     "es": {
       "subject": "Famulus News, octubre de 2026",
       "preview": "El primer número: el legado Kármán abierto en vista alfa, con explicaciones de los pasajes que usted selecciona, sus datos con el nivel de protección que usted elige, fuentes y figuras que se pueden citar, expedientes construidos a partir de referencias, frases con sus razones, un diccionario que lee según el contexto y una guía para cada lector. Famulus News llega ahora también por correo.",
-      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es",
+      "url": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es",
       "url_tailnet": null
     },
     "pl": {
       "subject": "Famulus News, październik 2026",
       "preview": "Pierwsze wydanie: spuścizna Kármána otwarta w wersji alfa, z objaśnieniami zaznaczonych fragmentów, Państwa dane na wybranym poziomie ochrony, źródła i ilustracje, które można cytować, dossier budowane z odniesień, zdania wraz z uzasadnieniem, słownik czytający według kontekstu oraz przewodnik dla każdego czytelnika. Famulus News przychodzi teraz także e-mailem.",
-      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl",
+      "url": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl",
       "url_tailnet": null
     }
   },
   "guide": {
-    "de": "https://grasshoff.github.io/famulus-news/guide/?lang=de",
-    "en": "https://grasshoff.github.io/famulus-news/guide/?lang=en",
-    "fr": "https://grasshoff.github.io/famulus-news/guide/?lang=fr",
-    "it": "https://grasshoff.github.io/famulus-news/guide/?lang=it",
-    "es": "https://grasshoff.github.io/famulus-news/guide/?lang=es",
-    "pl": "https://grasshoff.github.io/famulus-news/guide/?lang=pl"
+    "de": "https://famulus.lettre.ai/news/guide/?lang=de",
+    "en": "https://famulus.lettre.ai/news/guide/?lang=en",
+    "fr": "https://famulus.lettre.ai/news/guide/?lang=fr",
+    "it": "https://famulus.lettre.ai/news/guide/?lang=it",
+    "es": "https://famulus.lettre.ai/news/guide/?lang=es",
+    "pl": "https://famulus.lettre.ai/news/guide/?lang=pl"
   },
   "items": [
     {
@@ -78,12 +78,12 @@
       },
       "anchor": "#item-karman",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-karman",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-karman",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-karman",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-karman",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-karman",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-karman"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-karman",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-karman",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-karman",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-karman",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-karman",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-karman"
       }
     },
     {
@@ -100,12 +100,12 @@
       },
       "anchor": "#item-bedeutung",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-bedeutung",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-bedeutung",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-bedeutung",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-bedeutung",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-bedeutung",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-bedeutung"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-bedeutung",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-bedeutung",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-bedeutung",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-bedeutung",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-bedeutung",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-bedeutung"
       }
     },
     {
@@ -122,12 +122,12 @@
       },
       "anchor": "#item-dossier",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-dossier",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-dossier",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-dossier",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-dossier",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-dossier",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-dossier"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-dossier",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-dossier",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-dossier",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-dossier",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-dossier",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-dossier"
       }
     },
     {
@@ -144,12 +144,12 @@
       },
       "anchor": "#item-figures",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-figures",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-figures",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-figures",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-figures",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-figures",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-figures"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-figures",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-figures",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-figures",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-figures",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-figures",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-figures"
       }
     },
     {
@@ -166,12 +166,12 @@
       },
       "anchor": "#item-security",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-security",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-security",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-security",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-security",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-security",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-security"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-security",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-security",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-security",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-security",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-security",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-security"
       }
     },
     {
@@ -188,12 +188,12 @@
       },
       "anchor": "#item-portals",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-portals",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-portals",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-portals",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-portals",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-portals",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-portals"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-portals",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-portals",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-portals",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-portals",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-portals",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-portals"
       }
     },
     {
@@ -210,12 +210,12 @@
       },
       "anchor": "#item-notebook",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-notebook",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-notebook",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-notebook",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-notebook",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-notebook",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-notebook"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-notebook",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-notebook",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-notebook",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-notebook",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-notebook",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-notebook"
       }
     },
     {
@@ -232,12 +232,12 @@
       },
       "anchor": "#item-fr-address",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-fr-address",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-fr-address",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-fr-address",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-fr-address",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-fr-address",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-fr-address"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-fr-address",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-fr-address",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-fr-address",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-fr-address",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-fr-address",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-fr-address"
       }
     },
     {
@@ -254,12 +254,12 @@
       },
       "anchor": "#item-ducklake",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-ducklake",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-ducklake",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-ducklake",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-ducklake",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-ducklake",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-ducklake"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-ducklake",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-ducklake",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-ducklake",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-ducklake",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-ducklake",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-ducklake"
       }
     },
     {
@@ -276,12 +276,12 @@
       },
       "anchor": "#item-intake",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-intake",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-intake",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-intake",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-intake",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-intake",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-intake"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-intake",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-intake",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-intake",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-intake",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-intake",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-intake"
       }
     },
     {
@@ -298,12 +298,12 @@
       },
       "anchor": "#item-normalkarte",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-normalkarte",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-normalkarte",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-normalkarte",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-normalkarte",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-normalkarte",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-normalkarte"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-normalkarte",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-normalkarte",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-normalkarte",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-normalkarte",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-normalkarte",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-normalkarte"
       }
     },
     {
@@ -320,12 +320,12 @@
       },
       "anchor": "#item-probe-lab",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-probe-lab",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-probe-lab",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-probe-lab",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-probe-lab",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-probe-lab",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-probe-lab"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-probe-lab",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-probe-lab",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-probe-lab",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-probe-lab",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-probe-lab",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-probe-lab"
       }
     },
     {
@@ -342,12 +342,12 @@
       },
       "anchor": "#item-needle",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-needle",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-needle",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-needle",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-needle",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-needle",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-needle"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-needle",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-needle",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-needle",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-needle",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-needle",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-needle"
       }
     },
     {
@@ -364,12 +364,12 @@
       },
       "anchor": "#item-dictionary",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-dictionary",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-dictionary",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-dictionary",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-dictionary",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-dictionary",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-dictionary"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-dictionary",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-dictionary",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-dictionary",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-dictionary",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-dictionary",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-dictionary"
       }
     },
     {
@@ -386,12 +386,12 @@
       },
       "anchor": "#item-subscribe",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-subscribe",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-subscribe",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-subscribe",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-subscribe",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-subscribe",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-subscribe"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-subscribe",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-subscribe",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-subscribe",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-subscribe",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-subscribe",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-subscribe"
       }
     },
     {
@@ -408,12 +408,12 @@
       },
       "anchor": "#item-docs",
       "url": {
-        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-docs",
-        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-docs",
-        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-docs",
-        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-docs",
-        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-docs",
-        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-docs"
+        "de": "https://famulus.lettre.ai/news/?issue=2026-10&lang=de#item-docs",
+        "en": "https://famulus.lettre.ai/news/?issue=2026-10&lang=en#item-docs",
+        "fr": "https://famulus.lettre.ai/news/?issue=2026-10&lang=fr#item-docs",
+        "it": "https://famulus.lettre.ai/news/?issue=2026-10&lang=it#item-docs",
+        "es": "https://famulus.lettre.ai/news/?issue=2026-10&lang=es#item-docs",
+        "pl": "https://famulus.lettre.ai/news/?issue=2026-10&lang=pl#item-docs"
       }
     }
   ]
