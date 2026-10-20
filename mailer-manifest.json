@@ -1,0 +1,420 @@
+{
+  "schema": "famulus-news/mailer/1",
+  "issue": "2026-10",
+  "number": 1,
+  "period": {
+    "from": "2026-10-12",
+    "to": "2026-10-20"
+  },
+  "published": null,
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "es",
+    "pl"
+  ],
+  "default_language": "en",
+  "note": "A mailer sends only the link. One URL per language; the page also picks the reader's language when none is given.",
+  "mail": {
+    "de": {
+      "subject": "Famulus News, Oktober 2026",
+      "preview": "Die erste Ausgabe: der Kármán-Nachlass in der Alpha-Ansicht, mit Erläuterungen zu den Stellen, die Sie markieren, Ihre Daten unter der Schutzstufe Ihrer Wahl, Quellen und Abbildungen zum Zitieren, Dossiers aus Belegen, Sätze mit ihren Gründen, ein Wörterbuch, das nach Kontext liest, und ein Wegweiser für jede Leserin und jeden Leser. Die Famulus News gibt es jetzt auch per Mail.",
+      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de",
+      "url_tailnet": null
+    },
+    "en": {
+      "subject": "Famulus News, October 2026",
+      "preview": "The first issue: the Kármán papers open for alpha viewing, with explanations of the passages you select, your data under the protection level you choose, sources and figures you can cite, dossiers built from references, sentences with their reasons, a dictionary that reads by context, and a guide for every reader. Famulus News now also comes by mail.",
+      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en",
+      "url_tailnet": null
+    },
+    "fr": {
+      "subject": "Famulus News, octobre 2026",
+      "preview": "Le premier numéro : le fonds Kármán ouvert en vue alpha, avec des explications des passages que vous sélectionnez, vos données sous le niveau de protection que vous choisissez, des sources et des figures que l’on peut citer, des dossiers construits à partir de références, des phrases avec leurs raisons, un dictionnaire qui lit selon le contexte et un guide pour chaque lecteur. Famulus News arrive désormais aussi par courriel.",
+      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr",
+      "url_tailnet": null
+    },
+    "it": {
+      "subject": "Famulus News, ottobre 2026",
+      "preview": "Il primo numero: il fondo Kármán aperto alla vista alpha, con spiegazioni dei passi che selezionate, i vostri dati al livello di protezione che scegliete, fonti e figure da citare, dossier costruiti da riferimenti, frasi con le loro ragioni, un dizionario che legge secondo il contesto e una guida per ogni lettore. Famulus News ora arriva anche per e-mail.",
+      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it",
+      "url_tailnet": null
+    },
+    "es": {
+      "subject": "Famulus News, octubre de 2026",
+      "preview": "El primer número: el legado Kármán abierto en vista alfa, con explicaciones de los pasajes que usted selecciona, sus datos con el nivel de protección que usted elige, fuentes y figuras que se pueden citar, expedientes construidos a partir de referencias, frases con sus razones, un diccionario que lee según el contexto y una guía para cada lector. Famulus News llega ahora también por correo.",
+      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es",
+      "url_tailnet": null
+    },
+    "pl": {
+      "subject": "Famulus News, październik 2026",
+      "preview": "Pierwsze wydanie: spuścizna Kármána otwarta w wersji alfa, z objaśnieniami zaznaczonych fragmentów, Państwa dane na wybranym poziomie ochrony, źródła i ilustracje, które można cytować, dossier budowane z odniesień, zdania wraz z uzasadnieniem, słownik czytający według kontekstu oraz przewodnik dla każdego czytelnika. Famulus News przychodzi teraz także e-mailem.",
+      "url": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl",
+      "url_tailnet": null
+    }
+  },
+  "guide": {
+    "de": "https://grasshoff.github.io/famulus-news/guide/?lang=de",
+    "en": "https://grasshoff.github.io/famulus-news/guide/?lang=en",
+    "fr": "https://grasshoff.github.io/famulus-news/guide/?lang=fr",
+    "it": "https://grasshoff.github.io/famulus-news/guide/?lang=it",
+    "es": "https://grasshoff.github.io/famulus-news/guide/?lang=es",
+    "pl": "https://grasshoff.github.io/famulus-news/guide/?lang=pl"
+  },
+  "items": [
+    {
+      "id": "karman",
+      "pillar": "editions",
+      "status": "alpha",
+      "title": {
+        "de": "Der Kármán-Nachlass ist zur Alpha-Ansicht geöffnet",
+        "en": "The Kármán papers are open for alpha viewing",
+        "fr": "Le fonds Kármán est ouvert en vue alpha",
+        "it": "Il fondo Kármán è aperto alla vista alpha",
+        "es": "El legado Kármán está abierto en vista alfa",
+        "pl": "Spuścizna Kármána jest otwarta w wersji alfa"
+      },
+      "anchor": "#item-karman",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-karman",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-karman",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-karman",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-karman",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-karman",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-karman"
+      }
+    },
+    {
+      "id": "bedeutung",
+      "pillar": "editions",
+      "status": "alpha",
+      "title": {
+        "de": "Die Kármán-Ansicht erläutert die Stelle, die Sie markieren",
+        "en": "The Kármán viewer explains the passage you select",
+        "fr": "La vue Kármán explique le passage que vous sélectionnez",
+        "it": "La vista Kármán spiega il passo che selezionate",
+        "es": "La vista Kármán explica el pasaje que usted selecciona",
+        "pl": "Widok Kármána objaśnia zaznaczony fragment"
+      },
+      "anchor": "#item-bedeutung",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-bedeutung",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-bedeutung",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-bedeutung",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-bedeutung",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-bedeutung",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-bedeutung"
+      }
+    },
+    {
+      "id": "dossier",
+      "pillar": "reference",
+      "status": "progress",
+      "title": {
+        "de": "Aus Belegen werden belegte Fakten eines Dossiers",
+        "en": "References become sourced facts in a dossier",
+        "fr": "Les références deviennent des faits sourcés dans un dossier",
+        "it": "I riferimenti diventano fatti documentati in un dossier",
+        "es": "Las referencias se convierten en hechos documentados de un expediente",
+        "pl": "Odniesienia stają się udokumentowanymi faktami w dossier"
+      },
+      "anchor": "#item-dossier",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-dossier",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-dossier",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-dossier",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-dossier",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-dossier",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-dossier"
+      }
+    },
+    {
+      "id": "figures",
+      "pillar": "reference",
+      "status": "progress",
+      "title": {
+        "de": "Jede Abbildung einer Seite erhält eine eigene zitierbare Adresse",
+        "en": "Every figure on a page gets its own citable address",
+        "fr": "Chaque figure d’une page reçoit sa propre adresse citable",
+        "it": "Ogni figura di una pagina riceve un proprio indirizzo citabile",
+        "es": "Cada figura de una página recibe su propia dirección citable",
+        "pl": "Każda ilustracja na stronie otrzymuje własny adres do cytowania"
+      },
+      "anchor": "#item-figures",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-figures",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-figures",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-figures",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-figures",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-figures",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-figures"
+      }
+    },
+    {
+      "id": "security",
+      "pillar": "trust",
+      "status": "live",
+      "title": {
+        "de": "Ihre Daten unter der Schutzstufe Ihrer Wahl",
+        "en": "Your data, at the protection level you choose",
+        "fr": "Vos données, au niveau de protection de votre choix",
+        "it": "I vostri dati, al livello di protezione che scegliete",
+        "es": "Sus datos, con el nivel de protección que usted elige",
+        "pl": "Państwa dane na wybranym poziomie ochrony"
+      },
+      "anchor": "#item-security",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-security",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-security",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-security",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-security",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-security",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-security"
+      }
+    },
+    {
+      "id": "portals",
+      "pillar": "editions",
+      "status": "live",
+      "title": {
+        "de": "Editionen und Archive öffnen sich an einer Stelle",
+        "en": "Editions and archives open from one entry point",
+        "fr": "Éditions et archives s’ouvrent depuis un seul point d’entrée",
+        "it": "Edizioni e archivi si aprono da un unico punto d’ingresso",
+        "es": "Ediciones y archivos se abren desde un único punto de entrada",
+        "pl": "Edycje i archiwa otwierają się z jednego miejsca"
+      },
+      "anchor": "#item-portals",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-portals",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-portals",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-portals",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-portals",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-portals",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-portals"
+      }
+    },
+    {
+      "id": "notebook",
+      "pillar": "platform",
+      "status": "live",
+      "title": {
+        "de": "Notebooks zitieren ihre Quellen mit `fr:`-Adressen",
+        "en": "Notebooks cite their sources by `fr:` address",
+        "fr": "Les notebooks citent leurs sources par adresse `fr:`",
+        "it": "I notebook citano le fonti con indirizzi `fr:`",
+        "es": "Los cuadernos citan sus fuentes con direcciones `fr:`",
+        "pl": "Notatniki cytują źródła adresami `fr:`"
+      },
+      "anchor": "#item-notebook",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-notebook",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-notebook",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-notebook",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-notebook",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-notebook",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-notebook"
+      }
+    },
+    {
+      "id": "fr-address",
+      "pillar": "reference",
+      "status": "live",
+      "title": {
+        "de": "Jede Seite und jede Stelle erhält eine dauerhafte Adresse",
+        "en": "Every page and passage gets a permanent address",
+        "fr": "Chaque page et chaque passage reçoit une adresse permanente",
+        "it": "Ogni pagina e ogni passo riceve un indirizzo permanente",
+        "es": "Cada página y cada pasaje recibe una dirección permanente",
+        "pl": "Każda strona i każdy fragment dostaje stały adres"
+      },
+      "anchor": "#item-fr-address",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-fr-address",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-fr-address",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-fr-address",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-fr-address",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-fr-address",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-fr-address"
+      }
+    },
+    {
+      "id": "ducklake",
+      "pillar": "reference",
+      "status": "progress",
+      "title": {
+        "de": "Eine gemeinsame Bibliothek für alle Sammlungen, jetzt in Gebrauch",
+        "en": "One shared library for all collections, now in use",
+        "fr": "Une bibliothèque commune pour toutes les collections, désormais en service",
+        "it": "Una biblioteca comune per tutte le collezioni, ora in uso",
+        "es": "Una biblioteca común para todas las colecciones, ya en uso",
+        "pl": "Wspólna biblioteka dla wszystkich kolekcji, już w użyciu"
+      },
+      "anchor": "#item-ducklake",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-ducklake",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-ducklake",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-ducklake",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-ducklake",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-ducklake",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-ducklake"
+      }
+    },
+    {
+      "id": "intake",
+      "pillar": "reference",
+      "status": "progress",
+      "title": {
+        "de": "Bringen Sie Ihre eigene Sammlung mit: acht Schritte vom Ordner zur zitierbaren Sammlung",
+        "en": "Bring your own collection: eight steps from folder to citable collection",
+        "fr": "Apportez votre collection : huit étapes du dossier à la collection citable",
+        "it": "Portate la vostra collezione: otto passi dalla cartella alla collezione citabile",
+        "es": "Traiga su colección: ocho pasos de la carpeta a la colección citable",
+        "pl": "Przynieś własną kolekcję: osiem kroków od folderu do cytowalnej kolekcji"
+      },
+      "anchor": "#item-intake",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-intake",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-intake",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-intake",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-intake",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-intake",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-intake"
+      }
+    },
+    {
+      "id": "normalkarte",
+      "pillar": "normalization",
+      "status": "progress",
+      "title": {
+        "de": "Sätze erhalten eine Normalform mit Begründung",
+        "en": "Sentences get a normal form, with its reasons",
+        "fr": "Les phrases reçoivent une forme normale avec ses raisons",
+        "it": "Le frasi ricevono una forma normale con le sue ragioni",
+        "es": "Las frases reciben una forma normal con sus razones",
+        "pl": "Zdania dostają postać normalną wraz z uzasadnieniem"
+      },
+      "anchor": "#item-normalkarte",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-normalkarte",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-normalkarte",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-normalkarte",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-normalkarte",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-normalkarte",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-normalkarte"
+      }
+    },
+    {
+      "id": "probe-lab",
+      "pillar": "normalization",
+      "status": "progress",
+      "title": {
+        "de": "Das Probelabor prüft die Normalisierung an echten Briefen",
+        "en": "The probe lab tests normalisation on real letters",
+        "fr": "Le laboratoire d’essai teste la normalisation sur de vraies lettres",
+        "it": "Il laboratorio di prova verifica la normalizzazione su lettere vere",
+        "es": "El laboratorio de pruebas ensaya la normalización con cartas reales",
+        "pl": "Laboratorium prób sprawdza normalizację na prawdziwych listach"
+      },
+      "anchor": "#item-probe-lab",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-probe-lab",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-probe-lab",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-probe-lab",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-probe-lab",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-probe-lab",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-probe-lab"
+      }
+    },
+    {
+      "id": "needle",
+      "pillar": "lwgrammar",
+      "status": "progress",
+      "title": {
+        "de": "Wie verlässlich arbeitet die Logikprüfung? Wir messen es",
+        "en": "How reliably does the logic check work? We measure it",
+        "fr": "Le contrôle logique est-il fiable ? Nous le mesurons",
+        "it": "Quanto è affidabile il controllo logico? Lo misuriamo",
+        "es": "¿Cuán fiable es el control lógico? Lo medimos",
+        "pl": "Jak niezawodna jest kontrola logiczna? Mierzymy to"
+      },
+      "anchor": "#item-needle",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-needle",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-needle",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-needle",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-needle",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-needle",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-needle"
+      }
+    },
+    {
+      "id": "dictionary",
+      "pillar": "lwgrammar",
+      "status": "live",
+      "title": {
+        "de": "Das Wörterbuch gibt einem Begriff den Sinn aus dem Kontext",
+        "en": "The dictionary gives a term its sense from context",
+        "fr": "Le dictionnaire donne à un terme son sens selon le contexte",
+        "it": "Il dizionario dà a un termine il suo senso secondo il contesto",
+        "es": "El diccionario da a un término su sentido según el contexto",
+        "pl": "Słownik nadaje terminowi sens zależnie od kontekstu"
+      },
+      "anchor": "#item-dictionary",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-dictionary",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-dictionary",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-dictionary",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-dictionary",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-dictionary",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-dictionary"
+      }
+    },
+    {
+      "id": "subscribe",
+      "pillar": "platform",
+      "status": "live",
+      "title": {
+        "de": "Famulus News per Mail",
+        "en": "Famulus News by mail",
+        "fr": "Famulus News par courriel",
+        "it": "Famulus News per e-mail",
+        "es": "Famulus News por correo",
+        "pl": "Famulus News e-mailem"
+      },
+      "anchor": "#item-subscribe",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-subscribe",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-subscribe",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-subscribe",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-subscribe",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-subscribe",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-subscribe"
+      }
+    },
+    {
+      "id": "docs",
+      "pillar": "docs_editions",
+      "status": "live",
+      "title": {
+        "de": "Ein Wegweiser für jede Leserin und jeden Leser",
+        "en": "A guide for every reader",
+        "fr": "Un guide pour chaque lecteur",
+        "it": "Una guida per ogni lettore",
+        "es": "Una guía para cada lector",
+        "pl": "Przewodnik dla każdego czytelnika"
+      },
+      "anchor": "#item-docs",
+      "url": {
+        "de": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=de#item-docs",
+        "en": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=en#item-docs",
+        "fr": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=fr#item-docs",
+        "it": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=it#item-docs",
+        "es": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=es#item-docs",
+        "pl": "https://grasshoff.github.io/famulus-news/?issue=2026-10&lang=pl#item-docs"
+      }
+    }
+  ]
+}
