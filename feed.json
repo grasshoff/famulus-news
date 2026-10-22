@@ -24,18 +24,18 @@
       "current": "2026-10",
       "url": "https://famulus.lettre.ai/news/science/",
       "title": {
-        "de": "Famulus Science, Oktober 2026",
-        "en": "Famulus Science, October 2026",
-        "fr": "Famulus Science, octobre 2026",
-        "it": "Famulus Science, ottobre 2026",
-        "es": "Famulus Science, octubre de 2026",
-        "pl": "Famulus Science, październik 2026"
+        "de": "Famulus Science, Oktober 2026: Scientific Discovery",
+        "en": "Famulus Science, October 2026: Scientific Discovery",
+        "fr": "Famulus Science, octobre 2026 : Scientific Discovery",
+        "it": "Famulus Science, ottobre 2026: Scientific Discovery",
+        "es": "Famulus Science, octubre de 2026: Scientific Discovery",
+        "pl": "Famulus Science, październik 2026: Scientific Discovery"
       },
       "period": {
         "from": "2026-10-12",
         "to": "2026-10-22"
       },
-      "items": 10
+      "items": 11
     },
     {
       "id": "university",

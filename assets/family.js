@@ -1,5 +1,5 @@
-/* Famulus News, the family landing: the celebration of the month, the highlights, the tree "Find your way",
-   the review form and the members. Six languages; all text from #news-data, set with textContent only. */
+/* Famulus News, the family landing: the celebration of the month, the highlights, Scientific Discovery,
+   the tree "Find your way" and the members. Six languages; all text from #news-data, set with textContent only. */
 (function () {
   "use strict";
 
@@ -87,9 +87,8 @@
     var cta = $("hx-cta");
     cta.textContent = "";
     c.links.forEach(function (l, k) {
-      var a = el("a", k ? "fx-btn ghost" : "fx-btn", l.kind === "review" ? t.cta_review : l.kind === "news" ? t.cta_news : linkLabel(l));
+      var a = el("a", k ? "fx-btn ghost" : "fx-btn", l.kind === "discover" ? t.cta_discover : l.kind === "news" ? t.cta_news : linkLabel(l));
       a.href = l.href.charAt(0) === "#" ? l.href : own(l.href);
-      if (l.kind === "review") a.addEventListener("click", function () { setTimeout(function () { var f = $("rv-comment"); if (f) f.focus({ preventScroll: true }); }, 400); });
       cta.appendChild(a);
     });
     var sc = $("hx-scroll"); sc.setAttribute("aria-label", fam().scroll); sc.title = fam().scroll;
@@ -273,72 +272,26 @@
     drawBranch(user && !!id);
   }
 
-  // ------------------------------------------------------------------ 5. review form
-  function reviewUrl() { return (document.body.getAttribute("data-subscribe") || "api/subscribe").replace(/subscribe$/, "review"); }
-  function renderReview() {
-    var r = ui().review, box = $("review");
-    var keep = {};
-    ["rv-comment", "rv-email", "rv-name", "rv-item"].forEach(function (id) { var x = $(id); if (x) keep[id] = x.value; });
-    var memberNow = $("rv-member") ? $("rv-member").value : "reference";
-    box.textContent = "";
-    box.appendChild(el("h2", null, r.title)).id = "rv-title";
-    box.appendChild(el("p", "rv-lead", r.lead));
-    var f = el("form", "rv-form");
-    f.noValidate = true;
-    function field(id, label, input) {
-      var w = el("div", "rv-f");
-      var l = el("label", null, label); l.htmlFor = id;
-      input.id = id;
-      w.appendChild(l); w.appendChild(input);
-      f.appendChild(w);
-      return input;
-    }
-    var sel = el("select");
-    DATA.members.forEach(function (m) { var o = el("option", null, mname(m.id)); o.value = m.id; sel.appendChild(o); });
-    sel.value = memberNow;
-    var row = el("div", "rv-row");
-    f.appendChild(row);
-    field("rv-member", r.member, sel);
-    field("rv-item", r.item, el("input")).type = "text";
-    row.appendChild(f.lastChild.previousSibling); row.appendChild(f.lastChild);
-    var ta = field("rv-comment", r.comment, el("textarea"));
-    ta.rows = 5; ta.maxLength = 4000; ta.placeholder = r.comment_ph; ta.required = true;
-    var row2 = el("div", "rv-row");
-    f.appendChild(row2);
-    var em = field("rv-email", r.email, el("input")); em.type = "email"; em.autocomplete = "email"; em.required = true;
-    var nm = field("rv-name", r.name, el("input")); nm.type = "text"; nm.autocomplete = "name";
-    row2.appendChild(em.parentNode); row2.appendChild(nm.parentNode);
-    var hp = el("input", "hp"); hp.name = "website"; hp.tabIndex = -1; hp.autocomplete = "off"; hp.setAttribute("aria-hidden", "true");
-    f.appendChild(hp);
-    var cons = el("label", "rv-consent");
-    var cb = el("input"); cb.type = "checkbox"; cb.id = "rv-consent";
-    cons.appendChild(cb); cons.appendChild(el("span", null, r.consent));
-    f.appendChild(cons);
-    var btn = el("button", null, r.button); btn.type = "submit";
-    f.appendChild(btn);
-    var msg = el("p", "sub-msg"); msg.setAttribute("role", "status");
-    f.appendChild(msg);
-    Object.keys(keep).forEach(function (id) { if ($(id)) $(id).value = keep[id]; });
-    f.addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      if (!ta.value.trim() || !em.checkValidity() || !em.value.trim() || !cb.checked) {
-        msg.className = "sub-msg bad"; msg.textContent = r.invalid; return;
-      }
-      var body = new URLSearchParams();
-      body.set("member", sel.value); body.set("item", $("rv-item").value); body.set("comment", ta.value);
-      body.set("email", em.value.trim()); body.set("name", nm.value); body.set("lang", S.lang);
-      body.set("url", location.href.split("#")[0]); body.set("consent", "yes"); body.set("website", hp.value);
-      btn.disabled = true;
-      fetch(reviewUrl(), { method: "POST", body: body, headers: { Accept: "application/json" } })
-        .then(function (x) { return x.json().catch(function () { return { ok: false, msg: "error" }; }); })
-        .then(function (d) {
-          if (d && d.ok) { msg.className = "sub-msg ok"; msg.textContent = r.sent; ta.value = ""; }
-          else { msg.className = "sub-msg bad"; msg.textContent = d && d.msg === "invalid" ? r.invalid : r.error; }
-        })
-        .catch(function () { msg.className = "sub-msg bad"; msg.textContent = r.error; })
-        .then(function () { btn.disabled = false; });
+  // ------------------------------------------------------------------ 2b. Scientific Discovery
+  var STEPS = ["causal", "hypotheses", "together", "publish", "review"];
+  function renderDiscovery() {
+    var d = fam().discovery;
+    $("dx-kicker").textContent = d.kicker;
+    $("dx-title").textContent = d.title;
+    $("dx-text").textContent = d.text;
+    var ol = $("dx-steps");
+    ol.textContent = "";
+    STEPS.forEach(function (k, i) {
+      var li = el("li", "dx-step reveal");
+      li.style.transitionDelay = (i * 110) + "ms";
+      li.appendChild(el("span", "dx-n", String(i + 1)));
+      li.appendChild(el("strong", null, d.steps[k].name));
+      li.appendChild(el("span", "dx-l", d.steps[k].line));
+      ol.appendChild(li);
     });
-    box.appendChild(f);
+    var a = $("dx-cta");
+    a.textContent = d.cta + " \u2192";
+    a.href = own(DATA.own + "science/");
   }
 
   // ------------------------------------------------------------------ 6. the members
@@ -392,7 +345,7 @@
   }
 
   function renderAll() {
-    renderLangs(); renderHero(); renderHighlights(); renderTree(); renderReview(); renderMembers();
+    renderLangs(); renderHero(); renderHighlights(); renderDiscovery(); renderTree(); renderMembers();
     $("skip").textContent = fam().paths_title;
     reveal();
   }

@@ -20,38 +20,38 @@
   "note": "A mailer sends only the link. One URL per language; the page also picks the reader's language when none is given.",
   "mail": {
     "de": {
-      "subject": "Famulus Science, Oktober 2026",
-      "preview": "Die erste Ausgabe von Famulus Science: Antworten als Argumente, die Grundlagen der computergestützten Erkenntnistheorie, die Regularitätstheorie der Kausalität in Aufsätzen und in Erzählungen und eine Anwendung auf die Bellsche Ungleichung.",
+      "subject": "Famulus Science, Oktober 2026: Scientific Discovery",
+      "preview": "Wissenschaftliche Entdeckung wird zur Wissenschaft: Jahrzehnte der Forschung darüber, wie Entdeckungen entstehen, jetzt mit Famulus ausgeführt. In dieser Ausgabe: kausales Schließen, Hypothesenbildung, Zusammenarbeit, Publikation und Begutachtung unter Kollegen; die Grundlagen der computergestützten Erkenntnistheorie; alle Aufsätze zur Kausalität, öffentlich; und eine Anwendung auf die Bellsche Ungleichung.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de",
       "url_tailnet": null
     },
     "en": {
-      "subject": "Famulus Science, October 2026",
-      "preview": "The first issue of Famulus Science: answers as arguments, the foundations of computational epistemology, the regularity theory of causation in papers and in narratives, and an application to Bell's inequality.",
+      "subject": "Famulus Science, October 2026: Scientific Discovery",
+      "preview": "Scientific discovery becomes a science: decades of research on how discoveries are made, now carried out with Famulus. In this issue: causal reasoning, hypothesis building, working together, publication and peer review; the foundations of computational epistemology; all causal papers, public; and an application to Bell's inequality.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en",
       "url_tailnet": null
     },
     "fr": {
-      "subject": "Famulus Science, octobre 2026",
-      "preview": "Le premier numéro de Famulus Science : les réponses comme arguments, les fondements de l’épistémologie computationnelle, la théorie régulariste de la causalité dans des articles et dans des récits, et une application à l’inégalité de Bell.",
+      "subject": "Famulus Science, octobre 2026 : Scientific Discovery",
+      "preview": "La découverte scientifique devient une science : des décennies de recherche sur la naissance des découvertes, désormais mises en œuvre avec Famulus. Dans ce numéro : raisonnement causal, formation d’hypothèses, travail en commun, publication et évaluation par les pairs ; les fondements de l’épistémologie computationnelle ; tous les articles sur la causalité, publics ; et une application à l’inégalité de Bell.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr",
       "url_tailnet": null
     },
     "it": {
-      "subject": "Famulus Science, ottobre 2026",
-      "preview": "Il primo numero di Famulus Science: le risposte come argomenti, i fondamenti dell’epistemologia computazionale, la teoria della regolarità della causalità in articoli e in racconti, e un’applicazione alla disuguaglianza di Bell.",
+      "subject": "Famulus Science, ottobre 2026: Scientific Discovery",
+      "preview": "La scoperta scientifica diventa una scienza: decenni di ricerca su come nascono le scoperte, ora messi in opera con Famulus. In questo numero: ragionamento causale, formazione di ipotesi, collaborazione, pubblicazione e revisione tra pari; i fondamenti dell’epistemologia computazionale; tutti gli articoli sulla causalità, pubblici; e un’applicazione alla disuguaglianza di Bell.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it",
       "url_tailnet": null
     },
     "es": {
-      "subject": "Famulus Science, octubre de 2026",
-      "preview": "El primer número de Famulus Science: las respuestas como argumentos, los fundamentos de la epistemología computacional, la teoría de la regularidad de la causalidad en artículos y en relatos, y una aplicación a la desigualdad de Bell.",
+      "subject": "Famulus Science, octubre de 2026: Scientific Discovery",
+      "preview": "El descubrimiento científico se convierte en ciencia: décadas de investigación sobre cómo nacen los descubrimientos, ahora puestas en práctica con Famulus. En este número: razonamiento causal, formación de hipótesis, trabajo conjunto, publicación y revisión por pares; los fundamentos de la epistemología computacional; todos los artículos sobre causalidad, públicos; y una aplicación a la desigualdad de Bell.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es",
       "url_tailnet": null
     },
     "pl": {
-      "subject": "Famulus Science, październik 2026",
-      "preview": "Pierwsze wydanie Famulus Science: odpowiedzi jako argumenty, podstawy epistemologii obliczeniowej, regularnościowa teoria przyczynowości w artykułach i w opowieściach oraz zastosowanie do nierówności Bella.",
+      "subject": "Famulus Science, październik 2026: Scientific Discovery",
+      "preview": "Odkrycie naukowe staje się nauką: dziesięciolecia badań nad tym, jak powstają odkrycia, teraz w działaniu z Famulusem. W tym wydaniu: rozumowanie przyczynowe, tworzenie hipotez, wspólna praca, publikacja i recenzja naukowa; podstawy epistemologii obliczeniowej; wszystkie artykuły o przyczynowości, publicznie dostępne; oraz zastosowanie do nierówności Bella.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl",
       "url_tailnet": null
     }
@@ -65,6 +65,116 @@
     "pl": "https://famulus.lettre.ai/news/science/guide/?lang=pl"
   },
   "items": [
+    {
+      "id": "discovery",
+      "pillar": "discovery",
+      "status": "live",
+      "title": {
+        "de": "Wissenschaftliche Entdeckung: eine neue Wissenschaft",
+        "en": "Scientific discovery: a new science",
+        "fr": "La découverte scientifique : une science nouvelle",
+        "it": "La scoperta scientifica: una nuova scienza",
+        "es": "El descubrimiento científico: una nueva ciencia",
+        "pl": "Odkrycie naukowe: nowa nauka"
+      },
+      "anchor": "#item-discovery",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-discovery",
+        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-discovery",
+        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-discovery",
+        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-discovery",
+        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-discovery",
+        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-discovery"
+      }
+    },
+    {
+      "id": "causal-reasoning",
+      "pillar": "causality",
+      "status": "live",
+      "title": {
+        "de": "Kausales Schließen: was für was kausal relevant ist",
+        "en": "Causal reasoning: what is causally relevant to what",
+        "fr": "Raisonnement causal : ce qui est causalement pertinent pour quoi",
+        "it": "Ragionamento causale: che cosa è causalmente rilevante per che cosa",
+        "es": "Razonamiento causal: qué es causalmente relevante para qué",
+        "pl": "Rozumowanie przyczynowe: co jest przyczynowo istotne dla czego"
+      },
+      "anchor": "#item-causal-reasoning",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-causal-reasoning",
+        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-causal-reasoning",
+        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-causal-reasoning",
+        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-causal-reasoning",
+        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-causal-reasoning",
+        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-causal-reasoning"
+      }
+    },
+    {
+      "id": "hypotheses",
+      "pillar": "discovery",
+      "status": "live",
+      "title": {
+        "de": "Hypothesen, die aus ihrem Scheitern lernen",
+        "en": "Hypotheses that learn from their failures",
+        "fr": "Des hypothèses qui apprennent de leurs échecs",
+        "it": "Ipotesi che imparano dai propri fallimenti",
+        "es": "Hipótesis que aprenden de sus fracasos",
+        "pl": "Hipotezy, które uczą się na własnych porażkach"
+      },
+      "anchor": "#item-hypotheses",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-hypotheses",
+        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-hypotheses",
+        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-hypotheses",
+        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-hypotheses",
+        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-hypotheses",
+        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-hypotheses"
+      }
+    },
+    {
+      "id": "collaboration",
+      "pillar": "discovery",
+      "status": "live",
+      "title": {
+        "de": "Gemeinsam am selben Material",
+        "en": "Working together on the same material",
+        "fr": "Travailler ensemble sur le même matériel",
+        "it": "Lavorare insieme sullo stesso materiale",
+        "es": "Trabajar juntos sobre el mismo material",
+        "pl": "Wspólna praca na tym samym materiale"
+      },
+      "anchor": "#item-collaboration",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-collaboration",
+        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-collaboration",
+        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-collaboration",
+        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-collaboration",
+        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-collaboration",
+        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-collaboration"
+      }
+    },
+    {
+      "id": "publication",
+      "pillar": "discovery",
+      "status": "live",
+      "title": {
+        "de": "Publikation und Begutachtung, Satz für Satz",
+        "en": "Publication and peer review, sentence by sentence",
+        "fr": "Publication et évaluation par les pairs, phrase par phrase",
+        "it": "Pubblicazione e revisione tra pari, frase per frase",
+        "es": "Publicación y revisión por pares, frase por frase",
+        "pl": "Publikacja i recenzja naukowa, zdanie po zdaniu"
+      },
+      "anchor": "#item-publication",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-publication",
+        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-publication",
+        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-publication",
+        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-publication",
+        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-publication",
+        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-publication"
+      }
+    },
     {
       "id": "reasoning",
       "pillar": "reasoning",
@@ -107,94 +217,6 @@
         "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-epistemology",
         "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-epistemology",
         "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-epistemology"
-      }
-    },
-    {
-      "id": "causal-theory",
-      "pillar": "causality",
-      "status": "live",
-      "title": {
-        "de": "Kausale Regularitätstheorie in drei Bänden",
-        "en": "Causal regularity theory in three volumes",
-        "fr": "La théorie régulariste de la causalité en trois volumes",
-        "it": "La teoria causale della regolarità in tre volumi",
-        "es": "La teoría causal de la regularidad en tres volúmenes",
-        "pl": "Regularnościowa teoria przyczynowości w trzech tomach"
-      },
-      "anchor": "#item-causal-theory",
-      "url": {
-        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-causal-theory",
-        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-causal-theory",
-        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-causal-theory",
-        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-causal-theory",
-        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-causal-theory",
-        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-causal-theory"
-      }
-    },
-    {
-      "id": "cvl",
-      "pillar": "causality",
-      "status": "live",
-      "title": {
-        "de": "Kausaldiagramme, die Formeln sind",
-        "en": "Causal diagrams that are formulas",
-        "fr": "Des diagrammes causaux qui sont des formules",
-        "it": "Diagrammi causali che sono formule",
-        "es": "Diagramas causales que son fórmulas",
-        "pl": "Diagramy przyczynowe, które są formułami"
-      },
-      "anchor": "#item-cvl",
-      "url": {
-        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-cvl",
-        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-cvl",
-        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-cvl",
-        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-cvl",
-        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-cvl",
-        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-cvl"
-      }
-    },
-    {
-      "id": "casebook",
-      "pillar": "causality",
-      "status": "live",
-      "title": {
-        "de": "Das Fallbuch, seine Logik und ein Labor für Intuitionen",
-        "en": "The casebook, its logic, and a laboratory for intuitions",
-        "fr": "Le recueil de cas, sa logique et un laboratoire des intuitions",
-        "it": "La raccolta di casi, la sua logica e un laboratorio per le intuizioni",
-        "es": "El libro de casos, su lógica y un laboratorio de intuiciones",
-        "pl": "Zbiór przypadków, jego logika i laboratorium intuicji"
-      },
-      "anchor": "#item-casebook",
-      "url": {
-        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-casebook",
-        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-casebook",
-        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-casebook",
-        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-casebook",
-        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-casebook",
-        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-casebook"
-      }
-    },
-    {
-      "id": "models",
-      "pillar": "causality",
-      "status": "live",
-      "title": {
-        "de": "Ein Beweiskalkül für die Regularitätstheorien",
-        "en": "One proof calculus for the regularity theories",
-        "fr": "Un seul calcul de preuve pour les théories régularistes",
-        "it": "Un unico calcolo di dimostrazione per le teorie della regolarità",
-        "es": "Un solo cálculo de prueba para las teorías de la regularidad",
-        "pl": "Jeden rachunek dowodowy dla teorii regularnościowych"
-      },
-      "anchor": "#item-models",
-      "url": {
-        "de": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de#item-models",
-        "en": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en#item-models",
-        "fr": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr#item-models",
-        "it": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it#item-models",
-        "es": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es#item-models",
-        "pl": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl#item-models"
       }
     },
     {

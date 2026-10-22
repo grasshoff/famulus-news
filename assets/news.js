@@ -145,6 +145,12 @@
       ul.appendChild(li);
     });
     box.appendChild(ul);
+    if (DATA.readings && DATA.readings.length) {
+      box.appendChild(el("h2", "rd-h", u.family.branch.readings));
+      var rl = el("ul", "reading-l");
+      DATA.readings.forEach(function (r) { rl.appendChild(el("li", null, r)); });
+      box.appendChild(rl);
+    }
   }
   function renderFilters() {
     var box = $("filters");

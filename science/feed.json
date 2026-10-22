@@ -12,23 +12,23 @@
         "to": "2026-10-22"
       },
       "title": {
-        "de": "Famulus Science, Oktober 2026",
-        "en": "Famulus Science, October 2026",
-        "fr": "Famulus Science, octobre 2026",
-        "it": "Famulus Science, ottobre 2026",
-        "es": "Famulus Science, octubre de 2026",
-        "pl": "Famulus Science, październik 2026"
+        "de": "Famulus Science, Oktober 2026: Scientific Discovery",
+        "en": "Famulus Science, October 2026: Scientific Discovery",
+        "fr": "Famulus Science, octobre 2026 : Scientific Discovery",
+        "it": "Famulus Science, ottobre 2026: Scientific Discovery",
+        "es": "Famulus Science, octubre de 2026: Scientific Discovery",
+        "pl": "Famulus Science, październik 2026: Scientific Discovery"
       },
       "lead": {
-        "de": "Die erste Ausgabe von Famulus Science: Antworten als Argumente, die Grundlagen der computergestützten Erkenntnistheorie, die Regularitätstheorie der Kausalität in Aufsätzen und in Erzählungen und eine Anwendung auf die Bellsche Ungleichung.",
-        "en": "The first issue of Famulus Science: answers as arguments, the foundations of computational epistemology, the regularity theory of causation in papers and in narratives, and an application to Bell's inequality.",
-        "fr": "Le premier numéro de Famulus Science : les réponses comme arguments, les fondements de l’épistémologie computationnelle, la théorie régulariste de la causalité dans des articles et dans des récits, et une application à l’inégalité de Bell.",
-        "it": "Il primo numero di Famulus Science: le risposte come argomenti, i fondamenti dell’epistemologia computazionale, la teoria della regolarità della causalità in articoli e in racconti, e un’applicazione alla disuguaglianza di Bell.",
-        "es": "El primer número de Famulus Science: las respuestas como argumentos, los fundamentos de la epistemología computacional, la teoría de la regularidad de la causalidad en artículos y en relatos, y una aplicación a la desigualdad de Bell.",
-        "pl": "Pierwsze wydanie Famulus Science: odpowiedzi jako argumenty, podstawy epistemologii obliczeniowej, regularnościowa teoria przyczynowości w artykułach i w opowieściach oraz zastosowanie do nierówności Bella."
+        "de": "Wissenschaftliche Entdeckung wird zur Wissenschaft: Jahrzehnte der Forschung darüber, wie Entdeckungen entstehen, jetzt mit Famulus ausgeführt. In dieser Ausgabe: kausales Schließen, Hypothesenbildung, Zusammenarbeit, Publikation und Begutachtung unter Kollegen; die Grundlagen der computergestützten Erkenntnistheorie; alle Aufsätze zur Kausalität, öffentlich; und eine Anwendung auf die Bellsche Ungleichung.",
+        "en": "Scientific discovery becomes a science: decades of research on how discoveries are made, now carried out with Famulus. In this issue: causal reasoning, hypothesis building, working together, publication and peer review; the foundations of computational epistemology; all causal papers, public; and an application to Bell's inequality.",
+        "fr": "La découverte scientifique devient une science : des décennies de recherche sur la naissance des découvertes, désormais mises en œuvre avec Famulus. Dans ce numéro : raisonnement causal, formation d’hypothèses, travail en commun, publication et évaluation par les pairs ; les fondements de l’épistémologie computationnelle ; tous les articles sur la causalité, publics ; et une application à l’inégalité de Bell.",
+        "it": "La scoperta scientifica diventa una scienza: decenni di ricerca su come nascono le scoperte, ora messi in opera con Famulus. In questo numero: ragionamento causale, formazione di ipotesi, collaborazione, pubblicazione e revisione tra pari; i fondamenti dell’epistemologia computazionale; tutti gli articoli sulla causalità, pubblici; e un’applicazione alla disuguaglianza di Bell.",
+        "es": "El descubrimiento científico se convierte en ciencia: décadas de investigación sobre cómo nacen los descubrimientos, ahora puestas en práctica con Famulus. En este número: razonamiento causal, formación de hipótesis, trabajo conjunto, publicación y revisión por pares; los fundamentos de la epistemología computacional; todos los artículos sobre causalidad, públicos; y una aplicación a la desigualdad de Bell.",
+        "pl": "Odkrycie naukowe staje się nauką: dziesięciolecia badań nad tym, jak powstają odkrycia, teraz w działaniu z Famulusem. W tym wydaniu: rozumowanie przyczynowe, tworzenie hipotez, wspólna praca, publikacja i recenzja naukowa; podstawy epistemologii obliczeniowej; wszystkie artykuły o przyczynowości, publicznie dostępne; oraz zastosowanie do nierówności Bella."
       },
       "url": "https://famulus.lettre.ai/news/science/issues/2026-10/",
-      "items": 10
+      "items": 11
     }
   ]
 }

@@ -1,5 +1,5 @@
 /* Famulus principles: the general policy of the family, written once (ui.json `principles`), shown in full on the
-   family landing and as a panel on every member page and guide. Also the slim review banner of the member pages.
+   family landing and as a panel on every member page and guide. Also the slim banner of the member pages that leads to the highlights of the month.
    Follows the page language (the html lang attribute). Text only via textContent. */
 (function () {
   "use strict";
@@ -60,13 +60,13 @@
       box.appendChild(foot);
     }
     if (banner) {
-      var r = u.review;
+      var r = u.family;
       banner.textContent = "";
       var w = el("div", "wrap rv-banner-in");
       w.appendChild(el("span", "rv-star", "★"));
       w.appendChild(el("span", "rv-btext", r.banner));
       var a2 = el("a", null, r.banner_cta + " →");
-      a2.href = ROOT + "?lang=" + lang() + "#review";
+      a2.href = ROOT + "?lang=" + lang() + "#highlights";
       w.appendChild(a2);
       banner.appendChild(w);
       banner.hidden = false;
