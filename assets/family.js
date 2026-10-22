@@ -97,7 +97,20 @@
     $("hx-kicker").textContent = t.kicker;
     famulusMark($("hx-title"), t.title);
     famulusMark($("hx-text"), t.text);
-    $("hx-frcap").textContent = t.fr_caption;
+    $("hx-frcap").textContent = "";
+    /* the five principles, in their rank, each with its one line */
+    var ol = $("hx-points");
+    ol.textContent = "";
+    ["justified", "traceable", "validated", "data", "grounded"].forEach(function (k, i) {
+      var li = el("li", "hx-p");
+      li.style.animationDelay = (reduce ? 0 : 250 + i * 160) + "ms";
+      li.appendChild(el("span", "hx-n", String(i + 1)));
+      var b = el("span", "hx-b");
+      b.appendChild(el("strong", null, ui().principles.items[k].name));
+      b.appendChild(document.createTextNode(" – " + t.points[k]));
+      li.appendChild(b);
+      ol.appendChild(li);
+    });
     document.title = t.title + " | " + ui().site_name;
     var cta = $("hx-cta");
     cta.textContent = "";
@@ -111,7 +124,7 @@
     var box = $("hx-fr");
     box.textContent = "";
     clearTimeout(frTimer);
-    var parts = c.fr || [];
+    var parts = [];
     var spans = parts.map(function (p, k) {
       var s = el("span", "fr-p" + (k === 0 ? " first" : ""));
       s.appendChild(el("b", null, p[0]));
@@ -356,10 +369,66 @@
     Array.prototype.forEach.call(els, function (e) { io.observe(e); });
   }
 
+  // ------------------------------------------------------------------ paging: one band is one page
+  /* On a wide screen every band of the landing is exactly one screen. Left/right, Page Up/Down and space turn
+     whole pages; up/down scroll inside a page that holds more than one screen. The dots on the right show where
+     one is and jump to any page. */
+  var wide = window.matchMedia("(min-width: 960px) and (min-height: 560px)");
+  function pages() { return Array.prototype.slice.call(document.querySelectorAll("main > section")); }
+  function currentPage() {
+    var ps = pages(), mid = window.innerHeight / 3, best = 0, bd = Infinity;
+    ps.forEach(function (p, i) { var d = Math.abs(p.getBoundingClientRect().top - 60); if (p.getBoundingClientRect().top < mid && d < bd) { bd = d; best = i; } });
+    ps.forEach(function (p, i) { var t = p.getBoundingClientRect().top; if (t >= 0 && t < mid && i > best) best = i; });
+    return best;
+  }
+  function goPage(i) {
+    var ps = pages();
+    if (i < 0 || i >= ps.length) return;
+    ps[i].scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+    ps.forEach(function (p, k) { p.classList.toggle("turn-in", k === i); });
+  }
+  function renderDots() {
+    var nav = $("page-dots");
+    if (!nav) { nav = el("nav", "page-dots"); nav.id = "page-dots"; document.body.appendChild(nav); }
+    nav.textContent = "";
+    nav.setAttribute("aria-label", fam().pages);
+    pages().forEach(function (p, i) {
+      var b = el("button", "dot");
+      b.type = "button";
+      var h = p.querySelector("h1, h2");
+      b.title = h ? h.textContent : String(i + 1);
+      b.setAttribute("aria-label", b.title);
+      b.addEventListener("click", function () { goPage(i); });
+      nav.appendChild(b);
+    });
+    markDots();
+  }
+  function markDots() {
+    var nav = $("page-dots"); if (!nav) return;
+    var c = currentPage();
+    Array.prototype.forEach.call(nav.children, function (b, i) { if (i === c) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current"); });
+  }
+  function wirePaging() {
+    document.addEventListener("keydown", function (e) {
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
+      var tag = (e.target && e.target.tagName) || "";
+      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+      if (tag === "BUTTON" && (e.key === " " || e.key === "Enter")) return;
+      var next = e.key === "ArrowRight" || e.key === "PageDown" || (e.key === " " && !e.shiftKey);
+      var prev = e.key === "ArrowLeft" || e.key === "PageUp" || (e.key === " " && e.shiftKey);
+      if (next || prev) { e.preventDefault(); goPage(currentPage() + (next ? 1 : -1)); }
+      else if (e.key === "Home") { e.preventDefault(); goPage(0); }
+      else if (e.key === "End") { e.preventDefault(); goPage(pages().length - 1); }
+    });
+    var t = null;
+    window.addEventListener("scroll", function () { clearTimeout(t); t = setTimeout(markDots, 80); }, { passive: true });
+  }
+
   function renderAll() {
     renderLangs(); renderHero(); renderHighlights(); renderDiscovery(); renderTree(); renderMembers();
     $("skip").textContent = fam().paths_title;
     reveal();
+    if ($("page-dots")) renderDots();
   }
 
   function start() {
@@ -370,6 +439,8 @@
     if (m && ids.indexOf(m[1]) >= 0) S.path = m[1];
     else { try { var st = localStorage.getItem("famulus-news-path"); if (st && ids.indexOf(st) >= 0) S.path = st; } catch (e) {} }
     renderAll();
+    renderDots();
+    wirePaging();
     if (m && S.path) setTimeout(function () { drawBranch(true); }, 60);
     document.documentElement.classList.add("ready");
   }

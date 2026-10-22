@@ -637,3 +637,41 @@ html:not(.ready) .reveal { opacity: 1; transform: none; }
 .why-panel { margin: .4rem auto 2rem; padding: 1.6rem 1.4rem; background: var(--paper); border: 1px solid var(--line); border-top: 4px solid var(--gold); box-shadow: 0 14px 34px rgba(0, 21, 46, .07); }
 .why-panel h2 { font-size: clamp(1.6rem, 3.6vw, 2.4rem); margin: .3rem 0 1rem; max-width: none; }
 .why-panel .why-b p:first-child { font-size: clamp(1.15rem, 2vw, 1.35rem); }
+
+/* ------------------------------------------------------------------ the landing turns page by page (wide screens) */
+@media (min-width: 960px) and (min-height: 560px) {
+  html:has(body.family) { scroll-snap-type: y mandatory; scroll-padding-top: calc(var(--mast-h) + 3px); }
+  body.family main > section { box-sizing: border-box; height: calc(100svh - var(--mast-h) - 3px); min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+    scroll-snap-align: start; scroll-snap-stop: always; display: flex; flex-direction: column; padding-top: 2.4rem; padding-bottom: 2.4rem; border-bottom: 0; }
+  body.family main > section > * { margin-top: auto; margin-bottom: auto; width: 100%; }
+  body.family main > section.fx-hero { padding-top: 0; padding-bottom: 0; }
+  body.family main > section.fx-hero > .fx-hero-in { width: auto; }
+  body.family .why-band { padding-top: 2.4rem; padding-bottom: 2.4rem; }
+  body.family .foot { scroll-snap-align: end; }
+  body.family main > section::-webkit-scrollbar { width: 6px; }
+  body.family main > section::-webkit-scrollbar-thumb { background: rgba(140, 109, 42, .35); border-radius: 3px; }
+  /* turning a page: the arriving page settles in */
+  body.family main > section.turn-in > * { animation: band-in .7s var(--ease) both; }
+  .page-dots { position: fixed; right: 1.1rem; top: 50%; transform: translateY(-50%); z-index: 40; display: flex; flex-direction: column; gap: .55rem; }
+  .page-dots .dot { width: .7rem; height: .7rem; padding: 0; border-radius: 50%; border: 2px solid var(--gold); background: rgba(255, 253, 248, .7); transition: transform .2s var(--ease), background .2s; }
+  .page-dots .dot:hover { transform: scale(1.3); }
+  .page-dots .dot[aria-current="true"] { background: var(--gold); transform: scale(1.35); }
+}
+@media not ((min-width: 960px) and (min-height: 560px)) { .page-dots { display: none; } }
+@keyframes band-in { from { opacity: 0; transform: translateY(26px) scale(.99); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { body.family main > section.turn-in > * { animation: none; } }
+@media (min-width: 960px) and (min-height: 560px) {
+  body.family main > section > .fx-scroll { width: 1.6rem; margin: 0 0 0 -.8rem; }
+}
+
+/* hero: the five principles in their rank */
+.hx-points { list-style: none; margin: 1.6rem 0 0; padding: 0; display: grid; gap: .55rem; max-width: 52rem; }
+.hx-p { display: flex; align-items: baseline; gap: .9rem; padding: .55rem .9rem; background: rgba(255, 253, 248, .06); border-left: 3px solid var(--gold); animation: hx-in .6s var(--ease) both; }
+.hx-n { flex: none; font-family: var(--display); font-size: 1.5rem; line-height: 1; color: var(--gold); min-width: 1.2rem; }
+.hx-b { font-size: clamp(1rem, 1.7vw, 1.15rem); line-height: 1.45; color: rgba(244, 239, 228, .9); }
+.hx-b strong { color: #fff; font-family: var(--sans); font-weight: 650; letter-spacing: .02em; }
+.hx-p:first-child { background: rgba(196, 161, 90, .16); }
+.hx-p:first-child .hx-b strong { color: var(--gold); }
+@keyframes hx-in { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .hx-p { animation: none; } }
+.fx-hero .fx-lead { margin-top: 1rem; }
