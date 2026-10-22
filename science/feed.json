@@ -1,0 +1,34 @@
+{
+  "schema": "famulus-news/feed/1",
+  "member": "science",
+  "current": "2026-10",
+  "issues": [
+    {
+      "slug": "2026-10",
+      "number": 1,
+      "published": null,
+      "period": {
+        "from": "2026-10-12",
+        "to": "2026-10-22"
+      },
+      "title": {
+        "de": "Famulus Science, Oktober 2026",
+        "en": "Famulus Science, October 2026",
+        "fr": "Famulus Science, octobre 2026",
+        "it": "Famulus Science, ottobre 2026",
+        "es": "Famulus Science, octubre de 2026",
+        "pl": "Famulus Science, październik 2026"
+      },
+      "lead": {
+        "de": "Die erste Ausgabe von Famulus Science: Antworten als Argumente, die Grundlagen der computergestützten Erkenntnistheorie, die Regularitätstheorie der Kausalität in Aufsätzen und in Erzählungen und eine Anwendung auf die Bellsche Ungleichung.",
+        "en": "The first issue of Famulus Science: answers as arguments, the foundations of computational epistemology, the regularity theory of causation in papers and in narratives, and an application to Bell's inequality.",
+        "fr": "Le premier numéro de Famulus Science : les réponses comme arguments, les fondements de l’épistémologie computationnelle, la théorie régulariste de la causalité dans des articles et dans des récits, et une application à l’inégalité de Bell.",
+        "it": "Il primo numero di Famulus Science: le risposte come argomenti, i fondamenti dell’epistemologia computazionale, la teoria della regolarità della causalità in articoli e in racconti, e un’applicazione alla disuguaglianza di Bell.",
+        "es": "El primer número de Famulus Science: las respuestas como argumentos, los fundamentos de la epistemología computacional, la teoría de la regularidad de la causalidad en artículos y en relatos, y una aplicación a la desigualdad de Bell.",
+        "pl": "Pierwsze wydanie Famulus Science: odpowiedzi jako argumenty, podstawy epistemologii obliczeniowej, regularnościowa teoria przyczynowości w artykułach i w opowieściach oraz zastosowanie do nierówności Bella."
+      },
+      "url": "https://famulus.lettre.ai/news/science/issues/2026-10/",
+      "items": 10
+    }
+  ]
+}

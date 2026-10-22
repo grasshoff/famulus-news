@@ -7,7 +7,8 @@
   var LANGS = DATA.languages;
   var TABS = DATA.tabs.map(function (t) { return t.id; });
   var $ = function (id) { return document.getElementById(id); };
-  var S = { lang: DATA.default_language, tab: "general" };
+  var S = { lang: DATA.default_language, tab: TABS[0] };
+  var ROOT = document.body.getAttribute("data-root") || "";
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
@@ -16,7 +17,20 @@
     return e;
   }
   function ui() { return DATA.ui[S.lang]; }
-  function g() { return ui().guide; }
+  /* The guide strings, with this member's title and lead. */
+  function g() {
+    var base = ui().guide, m = (ui().members || {})[DATA.member];
+    if (!m) return base;
+    var out = {}; for (var k in base) out[k] = base[k];
+    out.title = m.guide_title; out.lead = m.guide_lead;
+    return out;
+  }
+  function own(href) {
+    var o = DATA.own || "/famulus-news/";
+    if (href.indexOf(o) !== 0) return href;
+    var rest = href.slice(o.length);
+    return ROOT + rest + (/\.(pdf|json)$/.test(rest.split("#")[0]) ? "" : "");
+  }
   function fill(s, o) { return String(s).replace(/\{(\w+)\}/g, function (_, k) { return o[k]; }); }
   function entry(id) { return DATA.entries.filter(function (e) { return e.id === id; })[0]; }
   function inTab(tab) { return DATA.entries.filter(function (e) { return e.audiences.indexOf(tab) >= 0; }); }
@@ -105,7 +119,7 @@
 
   function card(e, num) {
     var a = el("a", "gcard");
-    a.href = e.href;
+    a.href = own(e.href);
     if (num) a.appendChild(el("span", "gnum", String(num)));
     var body = el("span", "gbody");
     body.appendChild(el("strong", null, e.title));
@@ -167,7 +181,7 @@
   function start() {
     S.lang = pickLanguage();
     document.documentElement.lang = S.lang;
-    S.tab = tabFromHash() || "general";
+    S.tab = tabFromHash() || TABS[0];
     renderAll();
     syncUrl();
     window.addEventListener("hashchange", function () {

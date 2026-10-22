@@ -115,11 +115,36 @@
     $("nav-guide").href = BASE + "guide/?lang=" + S.lang;
   }
   // A link to the guide of this site is resolved from the page itself, so it works on the hub and on GitHub Pages.
+  /* A link into this family (member page, guide, released paper) becomes relative to this page, with the language. */
+  var ROOT = document.body.getAttribute("data-root") || "";
   function withLang(href) {
-    var own = "/famulus-news/guide/";
+    var own = DATA.own || "/famulus-news/";
     if (href.indexOf(own) !== 0) return href;
-    var hash = href.indexOf("#") >= 0 ? href.slice(href.indexOf("#")) : "";
-    return BASE + "guide/?lang=" + S.lang + hash;
+    var rest = href.slice(own.length), hash = "";
+    var h = rest.indexOf("#");
+    if (h >= 0) { hash = rest.slice(h); rest = rest.slice(0, h); }
+    if (/\.(pdf|json)$/.test(rest)) return ROOT + rest + hash;
+    return ROOT + rest + (rest.indexOf("?") >= 0 ? "&" : "?") + "lang=" + S.lang + hash;
+  }
+  function renderPapers() {
+    var box = $("papers");
+    if (!box || !DATA.papers || !DATA.papers.length) return;
+    var u = ui();
+    box.hidden = false;
+    box.textContent = "";
+    box.appendChild(el("h2", null, u.family.branch.papers));
+    var ul = el("ul", "paper-l");
+    DATA.papers.forEach(function (p) {
+      var li = el("li", p.causal ? "causal" : null);
+      var a = el("a");
+      a.href = withLang(p.href);
+      a.appendChild(el("strong", null, p.title));
+      if (p.subtitle) a.appendChild(el("span", "ps", p.subtitle));
+      a.appendChild(el("span", "pm", "PDF" + (p.pages ? " · " + p.pages : "")));
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+    box.appendChild(ul);
   }
   function renderFilters() {
     var box = $("filters");
@@ -591,6 +616,7 @@
   // ------------------------------------------------------------------ start
   function renderAll() {
     renderLangs(); renderChrome(); renderFilters(); renderCards(); renderStage(0); markCards();
+    renderPapers();
   }
   function start() {
     var q = new URLSearchParams(location.search);

@@ -1,0 +1,34 @@
+{
+  "schema": "famulus-news/feed/1",
+  "member": "university",
+  "current": "2026-10",
+  "issues": [
+    {
+      "slug": "2026-10",
+      "number": 1,
+      "published": null,
+      "period": {
+        "from": "2026-10-12",
+        "to": "2026-10-22"
+      },
+      "title": {
+        "de": "Famulus University, Oktober 2026",
+        "en": "Famulus University, October 2026",
+        "fr": "Famulus University, octobre 2026",
+        "it": "Famulus University, ottobre 2026",
+        "es": "Famulus University, octubre de 2026",
+        "pl": "Famulus University, październik 2026"
+      },
+      "lead": {
+        "de": "Die erste Ausgabe von Famulus University: Notebooks und Zitate in der Lehre, Schreiben mit Prüfung Satz für Satz, Schutzstufen und eigene Sammlungen für Einrichtungen sowie Editionen, Digitalisierung und begründete Antworten für Forschungsgruppen.",
+        "en": "The first issue of Famulus University: notebooks and citations in teaching, writing with sentence-by-sentence checks, protection levels and your own collections for institutions, and editions, scanning and justified answers for research groups.",
+        "fr": "Le premier numéro de Famulus University : notebooks et citations dans l’enseignement, écriture avec contrôle phrase par phrase, niveaux de protection et collections propres pour les institutions, ainsi qu’éditions, numérisation et réponses justifiées pour les groupes de recherche.",
+        "it": "Il primo numero di Famulus University: notebook e citazioni nella didattica, scrittura con controllo frase per frase, livelli di protezione e collezioni proprie per le istituzioni, ed edizioni, digitalizzazione e risposte giustificate per i gruppi di ricerca.",
+        "es": "El primer número de Famulus University: cuadernos y citas en la docencia, escritura con comprobación frase por frase, niveles de protección y colecciones propias para las instituciones, y ediciones, digitalización y respuestas justificadas para los grupos de investigación.",
+        "pl": "Pierwsze wydanie Famulus University: notatniki i cytowanie w dydaktyce, pisanie z kontrolą zdanie po zdaniu, poziomy ochrony i własne kolekcje dla instytucji oraz edycje, skanowanie i uzasadnione odpowiedzi dla zespołów badawczych."
+      },
+      "url": "https://famulus.lettre.ai/news/university/issues/2026-10/",
+      "items": 9
+    }
+  ]
+}

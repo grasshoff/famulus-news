@@ -1,0 +1,267 @@
+{
+  "schema": "famulus-news/mailer/1",
+  "member": "university",
+  "issue": "2026-10",
+  "number": 1,
+  "period": {
+    "from": "2026-10-12",
+    "to": "2026-10-22"
+  },
+  "published": null,
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "es",
+    "pl"
+  ],
+  "default_language": "en",
+  "note": "A mailer sends only the link. One URL per language; the page also picks the reader's language when none is given.",
+  "mail": {
+    "de": {
+      "subject": "Famulus University, Oktober 2026",
+      "preview": "Die erste Ausgabe von Famulus University: Notebooks und Zitate in der Lehre, Schreiben mit Prüfung Satz für Satz, Schutzstufen und eigene Sammlungen für Einrichtungen sowie Editionen, Digitalisierung und begründete Antworten für Forschungsgruppen.",
+      "url": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de",
+      "url_tailnet": null
+    },
+    "en": {
+      "subject": "Famulus University, October 2026",
+      "preview": "The first issue of Famulus University: notebooks and citations in teaching, writing with sentence-by-sentence checks, protection levels and your own collections for institutions, and editions, scanning and justified answers for research groups.",
+      "url": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en",
+      "url_tailnet": null
+    },
+    "fr": {
+      "subject": "Famulus University, octobre 2026",
+      "preview": "Le premier numéro de Famulus University : notebooks et citations dans l’enseignement, écriture avec contrôle phrase par phrase, niveaux de protection et collections propres pour les institutions, ainsi qu’éditions, numérisation et réponses justifiées pour les groupes de recherche.",
+      "url": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr",
+      "url_tailnet": null
+    },
+    "it": {
+      "subject": "Famulus University, ottobre 2026",
+      "preview": "Il primo numero di Famulus University: notebook e citazioni nella didattica, scrittura con controllo frase per frase, livelli di protezione e collezioni proprie per le istituzioni, ed edizioni, digitalizzazione e risposte giustificate per i gruppi di ricerca.",
+      "url": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it",
+      "url_tailnet": null
+    },
+    "es": {
+      "subject": "Famulus University, octubre de 2026",
+      "preview": "El primer número de Famulus University: cuadernos y citas en la docencia, escritura con comprobación frase por frase, niveles de protección y colecciones propias para las instituciones, y ediciones, digitalización y respuestas justificadas para los grupos de investigación.",
+      "url": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es",
+      "url_tailnet": null
+    },
+    "pl": {
+      "subject": "Famulus University, październik 2026",
+      "preview": "Pierwsze wydanie Famulus University: notatniki i cytowanie w dydaktyce, pisanie z kontrolą zdanie po zdaniu, poziomy ochrony i własne kolekcje dla instytucji oraz edycje, skanowanie i uzasadnione odpowiedzi dla zespołów badawczych.",
+      "url": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl",
+      "url_tailnet": null
+    }
+  },
+  "guide": {
+    "de": "https://famulus.lettre.ai/news/university/guide/?lang=de",
+    "en": "https://famulus.lettre.ai/news/university/guide/?lang=en",
+    "fr": "https://famulus.lettre.ai/news/university/guide/?lang=fr",
+    "it": "https://famulus.lettre.ai/news/university/guide/?lang=it",
+    "es": "https://famulus.lettre.ai/news/university/guide/?lang=es",
+    "pl": "https://famulus.lettre.ai/news/university/guide/?lang=pl"
+  },
+  "items": [
+    {
+      "id": "notebooks",
+      "pillar": "teaching",
+      "status": "live",
+      "title": {
+        "de": "Notebooks als Lehrmaterial",
+        "en": "Notebooks as course material",
+        "fr": "Les notebooks comme matériel de cours",
+        "it": "I notebook come materiale didattico",
+        "es": "Los cuadernos como material de curso",
+        "pl": "Notatniki jako materiał dydaktyczny"
+      },
+      "anchor": "#item-notebooks",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-notebooks",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-notebooks",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-notebooks",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-notebooks",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-notebooks",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-notebooks"
+      }
+    },
+    {
+      "id": "citing",
+      "pillar": "teaching",
+      "status": "live",
+      "title": {
+        "de": "Zitieren mit dauerhaften Adressen",
+        "en": "Citing with permanent addresses",
+        "fr": "Citer avec des adresses permanentes",
+        "it": "Citare con indirizzi permanenti",
+        "es": "Citar con direcciones permanentes",
+        "pl": "Cytowanie za pomocą stałych adresów"
+      },
+      "anchor": "#item-citing",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-citing",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-citing",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-citing",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-citing",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-citing",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-citing"
+      }
+    },
+    {
+      "id": "writing",
+      "pillar": "teaching",
+      "status": "live",
+      "title": {
+        "de": "Schreiben mit Prüfung Satz für Satz",
+        "en": "Writing with sentence-by-sentence checks",
+        "fr": "Écrire avec un contrôle phrase par phrase",
+        "it": "Scrivere con un controllo frase per frase",
+        "es": "Escribir con comprobación frase por frase",
+        "pl": "Pisanie z kontrolą zdanie po zdaniu"
+      },
+      "anchor": "#item-writing",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-writing",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-writing",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-writing",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-writing",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-writing",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-writing"
+      }
+    },
+    {
+      "id": "levels",
+      "pillar": "institutions",
+      "status": "live",
+      "title": {
+        "de": "Ihre Einrichtung wählt ihre Schutzstufe",
+        "en": "Your institution chooses its protection level",
+        "fr": "Votre institution choisit son niveau de protection",
+        "it": "La vostra istituzione sceglie il suo livello di protezione",
+        "es": "Su institución elige su nivel de protección",
+        "pl": "Państwa instytucja wybiera swój poziom ochrony"
+      },
+      "anchor": "#item-levels",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-levels",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-levels",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-levels",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-levels",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-levels",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-levels"
+      }
+    },
+    {
+      "id": "intake",
+      "pillar": "institutions",
+      "status": "progress",
+      "title": {
+        "de": "Bringen Sie Ihre eigene Sammlung mit",
+        "en": "Bring your own collection",
+        "fr": "Apportez votre propre collection",
+        "it": "Portate la vostra collezione",
+        "es": "Traiga su propia colección",
+        "pl": "Państwa własna kolekcja"
+      },
+      "anchor": "#item-intake",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-intake",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-intake",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-intake",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-intake",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-intake",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-intake"
+      }
+    },
+    {
+      "id": "editions",
+      "pillar": "research",
+      "status": "live",
+      "title": {
+        "de": "Editionen und Archive für Forschungsgruppen",
+        "en": "Editions and archives for research groups",
+        "fr": "Éditions et archives pour les groupes de recherche",
+        "it": "Edizioni e archivi per i gruppi di ricerca",
+        "es": "Ediciones y archivos para grupos de investigación",
+        "pl": "Edycje i archiwa dla zespołów badawczych"
+      },
+      "anchor": "#item-editions",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-editions",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-editions",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-editions",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-editions",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-editions",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-editions"
+      }
+    },
+    {
+      "id": "repro",
+      "pillar": "research",
+      "status": "live",
+      "title": {
+        "de": "Digitalisieren mit Famulus Repro",
+        "en": "Scanning with Famulus Repro",
+        "fr": "Numériser avec Famulus Repro",
+        "it": "Digitalizzare con Famulus Repro",
+        "es": "Digitalizar con Famulus Repro",
+        "pl": "Skanowanie z Famulus Repro"
+      },
+      "anchor": "#item-repro",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-repro",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-repro",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-repro",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-repro",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-repro",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-repro"
+      }
+    },
+    {
+      "id": "proof",
+      "pillar": "research",
+      "status": "live",
+      "title": {
+        "de": "Begründete Antworten für Forschungsprojekte",
+        "en": "Justified answers for research projects",
+        "fr": "Des réponses justifiées pour les projets de recherche",
+        "it": "Risposte giustificate per i progetti di ricerca",
+        "es": "Respuestas justificadas para proyectos de investigación",
+        "pl": "Uzasadnione odpowiedzi dla projektów badawczych"
+      },
+      "anchor": "#item-proof",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-proof",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-proof",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-proof",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-proof",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-proof",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-proof"
+      }
+    },
+    {
+      "id": "subscribe",
+      "pillar": "platform",
+      "status": "live",
+      "title": {
+        "de": "Famulus University per Mail",
+        "en": "Famulus University by mail",
+        "fr": "Famulus University par courriel",
+        "it": "Famulus University per e-mail",
+        "es": "Famulus University por correo",
+        "pl": "Famulus University e-mailem"
+      },
+      "anchor": "#item-subscribe",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=de#item-subscribe",
+        "en": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=en#item-subscribe",
+        "fr": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=fr#item-subscribe",
+        "it": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=it#item-subscribe",
+        "es": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=es#item-subscribe",
+        "pl": "https://famulus.lettre.ai/news/university/?issue=2026-10&lang=pl#item-subscribe"
+      }
+    }
+  ]
+}

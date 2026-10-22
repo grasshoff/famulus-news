@@ -23,6 +23,7 @@
     btn.textContent = s.button;
     $("sub-note").textContent = s.privacy;
     $("sub-lang").value = lang();
+    var lg = $("sub-choose"); if (lg && s.choose) lg.textContent = s.choose;
     if (msg.getAttribute("data-key")) msg.textContent = s[msg.getAttribute("data-key")];
   }
   function say(key, ok) {
@@ -35,8 +36,13 @@
     ev.preventDefault();
     var email = input.value.trim();
     if (!input.checkValidity() || !email) { say("invalid", false); input.focus(); return; }
+    var lists = Array.prototype.filter.call(form.querySelectorAll('input[name="lists"]'), function (x) {
+      return x.type === "hidden" || x.checked;
+    }).map(function (x) { return x.value; });
+    if (!lists.length) { say("none", false); return; }
     var body = new URLSearchParams();
     body.set("email", email);
+    lists.forEach(function (l) { body.append("lists", l); });
     body.set("lang", lang());
     body.set("website", form.elements.website.value);
     btn.disabled = true;
