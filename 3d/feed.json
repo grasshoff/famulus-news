@@ -1,0 +1,34 @@
+{
+  "schema": "famulus-news/feed/1",
+  "member": "3d",
+  "current": "2026-10",
+  "issues": [
+    {
+      "slug": "2026-10",
+      "number": 1,
+      "published": null,
+      "period": {
+        "from": "2026-10-22",
+        "to": "2026-10-22"
+      },
+      "title": {
+        "de": "Famulus 3D, Oktober 2026",
+        "en": "Famulus 3D, October 2026",
+        "fr": "Famulus 3D, octobre 2026",
+        "it": "Famulus 3D, ottobre 2026",
+        "es": "Famulus 3D, octubre de 2026",
+        "pl": "Famulus 3D, październik 2026"
+      },
+      "lead": {
+        "de": "Ein neues Medium des Schließens: dreidimensionale Strukturen treten neben Text und Bild auf einen gemeinsamen Grund. 3D-Modelle erzeugen, vermessen, validieren und reflektieren, die Geometrie eines Instruments und die Physik seines Funktionierens verstehen, und ein Modell ein Argument tragen lassen wie eine Seite einer Quelle.",
+        "en": "A new medium for reasoning: three-dimensional structures join text and images on one common ground. Generate, measure, validate and reflect on 3D models, understand the geometry of an instrument and the physics of its working, and let a model carry an argument the way a page of a source does.",
+        "fr": "Un nouveau médium pour le raisonnement : les structures tridimensionnelles rejoignent le texte et l’image sur un terrain commun. Générer, mesurer, valider et interroger des modèles 3D, comprendre la géométrie d’un instrument et la physique de son fonctionnement, et laisser un modèle porter un argument comme le fait la page d’une source.",
+        "it": "Un nuovo mezzo per il ragionamento: le strutture tridimensionali si affiancano a testo e immagini su un terreno comune. Generare, misurare, validare e riflettere su modelli 3D, comprendere la geometria di uno strumento e la fisica del suo funzionamento, e lasciare che un modello sostenga un argomento come fa la pagina di una fonte.",
+        "es": "Un nuevo medio para el razonamiento: las estructuras tridimensionales se unen al texto y a la imagen en un terreno común. Generar, medir, validar y reflexionar sobre modelos 3D, comprender la geometría de un instrumento y la física de su funcionamiento, y dejar que un modelo sostenga un argumento como lo hace la página de una fuente.",
+        "pl": "Nowe medium rozumowania: struktury trójwymiarowe stają obok tekstu i obrazu na wspólnym gruncie. Tworzyć, mierzyć, walidować i analizować modele 3D, rozumieć geometrię instrumentu i fizykę jego działania, i pozwolić modelowi nieść argument tak, jak czyni to strona źródła."
+      },
+      "url": "https://famulus.lettre.ai/news/3d/issues/2026-10/",
+      "items": 10
+    }
+  ]
+}

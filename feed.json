@@ -72,6 +72,24 @@
         "to": "2026-10-22"
       },
       "items": 5
+    },
+    {
+      "id": "3d",
+      "current": "2026-10",
+      "url": "https://famulus.lettre.ai/news/3d/",
+      "title": {
+        "de": "Famulus 3D, Oktober 2026",
+        "en": "Famulus 3D, October 2026",
+        "fr": "Famulus 3D, octobre 2026",
+        "it": "Famulus 3D, ottobre 2026",
+        "es": "Famulus 3D, octubre de 2026",
+        "pl": "Famulus 3D, październik 2026"
+      },
+      "period": {
+        "from": "2026-10-22",
+        "to": "2026-10-22"
+      },
+      "items": 10
     }
   ]
 }

@@ -43,7 +43,7 @@
   /* "Famulus Reference": the family name in the text colour, the member in gold. */
   function famulusMark(node, text) {
     node.textContent = "";
-    String(text).split(/(Famulus (?:Reference|Science|University|Visualization|News|Notebook|Lektor|Repro|Proof))/).forEach(function (part, k) {
+    String(text).split(/(Famulus (?:Reference|Science|University|Visualization|3D|News|Notebook|Lektor|Repro|Proof))/).forEach(function (part, k) {
       if (!part) return;
       if (k % 2) {
         var w = el("span", "fm-name");

@@ -675,3 +675,8 @@ html:not(.ready) .reveal { opacity: 1; transform: none; }
 @keyframes hx-in { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .hx-p { animation: none; } }
 .fx-hero .fx-lead { margin-top: 1rem; }
+:root { --m-3d: #3d6b8f; }
+
+@media (min-width: 1100px) { .fx-tiles { grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); } .fam-cards { grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); } }
+.tile h3, .mcard h3 { hyphens: auto; overflow-wrap: break-word; }
+.tile h3 .fm-name, .mcard h3 .fm-name { white-space: normal; }

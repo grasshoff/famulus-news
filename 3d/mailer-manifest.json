@@ -1,0 +1,289 @@
+{
+  "schema": "famulus-news/mailer/1",
+  "member": "3d",
+  "issue": "2026-10",
+  "number": 1,
+  "period": {
+    "from": "2026-10-22",
+    "to": "2026-10-22"
+  },
+  "published": null,
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "es",
+    "pl"
+  ],
+  "default_language": "en",
+  "note": "A mailer sends only the link. One URL per language; the page also picks the reader's language when none is given.",
+  "mail": {
+    "de": {
+      "subject": "Famulus 3D, Oktober 2026",
+      "preview": "Ein neues Medium des Schließens: dreidimensionale Strukturen treten neben Text und Bild auf einen gemeinsamen Grund. 3D-Modelle erzeugen, vermessen, validieren und reflektieren, die Geometrie eines Instruments und die Physik seines Funktionierens verstehen, und ein Modell ein Argument tragen lassen wie eine Seite einer Quelle.",
+      "url": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de",
+      "url_tailnet": null
+    },
+    "en": {
+      "subject": "Famulus 3D, October 2026",
+      "preview": "A new medium for reasoning: three-dimensional structures join text and images on one common ground. Generate, measure, validate and reflect on 3D models, understand the geometry of an instrument and the physics of its working, and let a model carry an argument the way a page of a source does.",
+      "url": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en",
+      "url_tailnet": null
+    },
+    "fr": {
+      "subject": "Famulus 3D, octobre 2026",
+      "preview": "Un nouveau médium pour le raisonnement : les structures tridimensionnelles rejoignent le texte et l’image sur un terrain commun. Générer, mesurer, valider et interroger des modèles 3D, comprendre la géométrie d’un instrument et la physique de son fonctionnement, et laisser un modèle porter un argument comme le fait la page d’une source.",
+      "url": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr",
+      "url_tailnet": null
+    },
+    "it": {
+      "subject": "Famulus 3D, ottobre 2026",
+      "preview": "Un nuovo mezzo per il ragionamento: le strutture tridimensionali si affiancano a testo e immagini su un terreno comune. Generare, misurare, validare e riflettere su modelli 3D, comprendere la geometria di uno strumento e la fisica del suo funzionamento, e lasciare che un modello sostenga un argomento come fa la pagina di una fonte.",
+      "url": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it",
+      "url_tailnet": null
+    },
+    "es": {
+      "subject": "Famulus 3D, octubre de 2026",
+      "preview": "Un nuevo medio para el razonamiento: las estructuras tridimensionales se unen al texto y a la imagen en un terreno común. Generar, medir, validar y reflexionar sobre modelos 3D, comprender la geometría de un instrumento y la física de su funcionamiento, y dejar que un modelo sostenga un argumento como lo hace la página de una fuente.",
+      "url": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es",
+      "url_tailnet": null
+    },
+    "pl": {
+      "subject": "Famulus 3D, październik 2026",
+      "preview": "Nowe medium rozumowania: struktury trójwymiarowe stają obok tekstu i obrazu na wspólnym gruncie. Tworzyć, mierzyć, walidować i analizować modele 3D, rozumieć geometrię instrumentu i fizykę jego działania, i pozwolić modelowi nieść argument tak, jak czyni to strona źródła.",
+      "url": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl",
+      "url_tailnet": null
+    }
+  },
+  "guide": {
+    "de": "https://famulus.lettre.ai/news/3d/guide/?lang=de",
+    "en": "https://famulus.lettre.ai/news/3d/guide/?lang=en",
+    "fr": "https://famulus.lettre.ai/news/3d/guide/?lang=fr",
+    "it": "https://famulus.lettre.ai/news/3d/guide/?lang=it",
+    "es": "https://famulus.lettre.ai/news/3d/guide/?lang=es",
+    "pl": "https://famulus.lettre.ai/news/3d/guide/?lang=pl"
+  },
+  "items": [
+    {
+      "id": "vision",
+      "pillar": "d3_reflect",
+      "status": "progress",
+      "title": {
+        "de": "Schließen in drei Dimensionen",
+        "en": "Reasoning in three dimensions",
+        "fr": "Raisonner en trois dimensions",
+        "it": "Ragionare in tre dimensioni",
+        "es": "Razonar en tres dimensiones",
+        "pl": "Rozumowanie w trzech wymiarach"
+      },
+      "anchor": "#item-vision",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-vision",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-vision",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-vision",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-vision",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-vision",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-vision"
+      }
+    },
+    {
+      "id": "measure",
+      "pillar": "d3_measure",
+      "status": "live",
+      "title": {
+        "de": "Vom Scan vermessen: antike Sonnenuhren",
+        "en": "Measured from the scan: ancient sundials",
+        "fr": "Mesurés sur le scan : les cadrans solaires antiques",
+        "it": "Misurate dalla scansione: le meridiane antiche",
+        "es": "Medidos desde el escaneo: los relojes de sol antiguos",
+        "pl": "Zmierzone ze skanu: antyczne zegary słoneczne"
+      },
+      "anchor": "#item-measure",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-measure",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-measure",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-measure",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-measure",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-measure",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-measure"
+      }
+    },
+    {
+      "id": "geometry",
+      "pillar": "d3_measure",
+      "status": "live",
+      "title": {
+        "de": "Geometrie aus dem Modell: die Aufsätze zu den Sonnenuhren",
+        "en": "Geometry from the model: the sundial papers",
+        "fr": "La géométrie tirée du modèle : les articles sur les cadrans solaires",
+        "it": "La geometria dal modello: gli articoli sulle meridiane",
+        "es": "La geometría desde el modelo: los artículos sobre los relojes de sol",
+        "pl": "Geometria z modelu: artykuły o zegarach słonecznych"
+      },
+      "anchor": "#item-geometry",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-geometry",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-geometry",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-geometry",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-geometry",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-geometry",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-geometry"
+      }
+    },
+    {
+      "id": "validate",
+      "pillar": "d3_validate",
+      "status": "live",
+      "title": {
+        "de": "Eine Gestalt ist eine Hypothese, und sie wird geprüft",
+        "en": "A shape is a hypothesis, and it is tested",
+        "fr": "Une forme est une hypothèse, et elle est mise à l’épreuve",
+        "it": "Una forma è un’ipotesi, e viene messa alla prova",
+        "es": "Una forma es una hipótesis, y se pone a prueba",
+        "pl": "Kształt jest hipotezą i zostaje sprawdzony"
+      },
+      "anchor": "#item-validate",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-validate",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-validate",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-validate",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-validate",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-validate",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-validate"
+      }
+    },
+    {
+      "id": "physics",
+      "pillar": "d3_reflect",
+      "status": "progress",
+      "title": {
+        "de": "Kinematik und Dynamik: verstehen, wie Instrumente arbeiten",
+        "en": "Kinematics and dynamics: understanding how instruments work",
+        "fr": "Cinématique et dynamique : comprendre comment fonctionnent les instruments",
+        "it": "Cinematica e dinamica: capire come funzionano gli strumenti",
+        "es": "Cinemática y dinámica: entender cómo funcionan los instrumentos",
+        "pl": "Kinematyka i dynamika: zrozumieć, jak działają instrumenty"
+      },
+      "anchor": "#item-physics",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-physics",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-physics",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-physics",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-physics",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-physics",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-physics"
+      }
+    },
+    {
+      "id": "pantheon",
+      "pillar": "d3_measure",
+      "status": "prepared",
+      "title": {
+        "de": "Das digitale Pantheon",
+        "en": "The Digital Pantheon",
+        "fr": "Le Panthéon numérique",
+        "it": "Il Pantheon digitale",
+        "es": "El Panteón digital",
+        "pl": "Cyfrowy Panteon"
+      },
+      "anchor": "#item-pantheon",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-pantheon",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-pantheon",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-pantheon",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-pantheon",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-pantheon",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-pantheon"
+      }
+    },
+    {
+      "id": "heliograph",
+      "pillar": "d3_measure",
+      "status": "prepared",
+      "title": {
+        "de": "Der Heliograph des Kopernikus in Olsztyn",
+        "en": "Copernicus's heliograph at Olsztyn",
+        "fr": "L’héliographe de Copernic à Olsztyn",
+        "it": "L’eliografo di Copernico a Olsztyn",
+        "es": "El heliógrafo de Copérnico en Olsztyn",
+        "pl": "Heliograf Kopernika w Olsztynie"
+      },
+      "anchor": "#item-heliograph",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-heliograph",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-heliograph",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-heliograph",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-heliograph",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-heliograph",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-heliograph"
+      }
+    },
+    {
+      "id": "scenes",
+      "pillar": "d3_reflect",
+      "status": "live",
+      "title": {
+        "de": "3D-Szenen im Text",
+        "en": "3D scenes in the text",
+        "fr": "Des scènes 3D dans le texte",
+        "it": "Scene 3D nel testo",
+        "es": "Escenas 3D en el texto",
+        "pl": "Sceny 3D w tekście"
+      },
+      "anchor": "#item-scenes",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-scenes",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-scenes",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-scenes",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-scenes",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-scenes",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-scenes"
+      }
+    },
+    {
+      "id": "generate",
+      "pillar": "d3_generate",
+      "status": "prepared",
+      "title": {
+        "de": "Von Fotos zu Modellen",
+        "en": "From photographs to models",
+        "fr": "Des photographies aux modèles",
+        "it": "Dalle fotografie ai modelli",
+        "es": "De las fotografías a los modelos",
+        "pl": "Od fotografii do modeli"
+      },
+      "anchor": "#item-generate",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-generate",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-generate",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-generate",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-generate",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-generate",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-generate"
+      }
+    },
+    {
+      "id": "subscribe",
+      "pillar": "platform",
+      "status": "live",
+      "title": {
+        "de": "Famulus 3D per Mail",
+        "en": "Famulus 3D by mail",
+        "fr": "Famulus 3D par courriel",
+        "it": "Famulus 3D per e-mail",
+        "es": "Famulus 3D por correo",
+        "pl": "Famulus 3D e-mailem"
+      },
+      "anchor": "#item-subscribe",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=de#item-subscribe",
+        "en": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=en#item-subscribe",
+        "fr": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=fr#item-subscribe",
+        "it": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=it#item-subscribe",
+        "es": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=es#item-subscribe",
+        "pl": "https://famulus.lettre.ai/news/3d/?issue=2026-10&lang=pl#item-subscribe"
+      }
+    }
+  ]
+}
