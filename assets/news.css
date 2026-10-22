@@ -556,3 +556,8 @@ html:not(.ready) .reveal { opacity: 1; transform: none; }
   .fx-scroll span { animation: none; }
   .tile:hover, .path:hover, .fx-btn:hover { transform: none; }
 }
+
+/* grid children may shrink below their content: the card strip scrolls inside, the page never sideways */
+.deck > *, .rail { min-width: 0; }
+/* on a phone the issue title names the member; the chip would collide with the language buttons */
+@media (max-width: 560px) { .member-chip { display: none; } }
