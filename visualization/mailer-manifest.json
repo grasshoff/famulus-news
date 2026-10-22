@@ -1,0 +1,179 @@
+{
+  "schema": "famulus-news/mailer/1",
+  "member": "visualization",
+  "issue": "2026-10",
+  "number": 1,
+  "period": {
+    "from": "2026-10-22",
+    "to": "2026-10-22"
+  },
+  "published": null,
+  "languages": [
+    "de",
+    "en",
+    "fr",
+    "it",
+    "es",
+    "pl"
+  ],
+  "default_language": "en",
+  "note": "A mailer sends only the link. One URL per language; the page also picks the reader's language when none is given.",
+  "mail": {
+    "de": {
+      "subject": "Famulus Visualization, Oktober 2026",
+      "preview": "Die erste Ausgabe von Famulus Visualization: Abbildungen, die in jedem Famulus-Dokument aus ihren Daten gezeichnet werden, eine Sammlung gelöster Gestaltungsfragen, die vermessene Sonnenuhr ObjID18 als Szene im Raum und eine Schleife, die lernt, welche Abbildung eine Aussage trägt.",
+      "url": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=de",
+      "url_tailnet": null
+    },
+    "en": {
+      "subject": "Famulus Visualization, October 2026",
+      "preview": "The first issue of Famulus Visualization: figures drawn from their data in every Famulus document, a collection of solved layout problems, the measured sundial ObjID18 as a scene in space, and a loop that learns which figure carries a statement.",
+      "url": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=en",
+      "url_tailnet": null
+    },
+    "fr": {
+      "subject": "Famulus Visualization, octobre 2026",
+      "preview": "Le premier numéro de Famulus Visualization : des figures tracées à partir de leurs données dans tout document Famulus, une collection de problèmes de mise en forme résolus, le cadran solaire mesuré ObjID18 comme scène dans l'espace, et une boucle qui apprend quelle figure porte un énoncé.",
+      "url": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=fr",
+      "url_tailnet": null
+    },
+    "it": {
+      "subject": "Famulus Visualization, ottobre 2026",
+      "preview": "Il primo numero di Famulus Visualization: figure disegnate dai loro dati in ogni documento Famulus, una raccolta di problemi di impaginazione risolti, la meridiana misurata ObjID18 come scena nello spazio e un ciclo che impara quale figura porta un enunciato.",
+      "url": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=it",
+      "url_tailnet": null
+    },
+    "es": {
+      "subject": "Famulus Visualization, octubre de 2026",
+      "preview": "El primer número de Famulus Visualization: figuras dibujadas a partir de sus datos en cualquier documento Famulus, una colección de problemas de maquetación resueltos, el reloj de sol medido ObjID18 como escena en el espacio y un ciclo que aprende qué figura sostiene un enunciado.",
+      "url": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=es",
+      "url_tailnet": null
+    },
+    "pl": {
+      "subject": "Famulus Visualization, październik 2026",
+      "preview": "Pierwszy numer Famulus Visualization: ryciny rysowane z ich danych w każdym dokumencie Famulus, zbiór rozwiązanych problemów składu, zmierzony zegar słoneczny ObjID18 jako scena w przestrzeni oraz pętla, która uczy się, jaka rycina niesie dane stwierdzenie.",
+      "url": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=pl",
+      "url_tailnet": null
+    }
+  },
+  "guide": {
+    "de": "https://famulus.lettre.ai/news/visualization/guide/?lang=de",
+    "en": "https://famulus.lettre.ai/news/visualization/guide/?lang=en",
+    "fr": "https://famulus.lettre.ai/news/visualization/guide/?lang=fr",
+    "it": "https://famulus.lettre.ai/news/visualization/guide/?lang=it",
+    "es": "https://famulus.lettre.ai/news/visualization/guide/?lang=es",
+    "pl": "https://famulus.lettre.ai/news/visualization/guide/?lang=pl"
+  },
+  "items": [
+    {
+      "id": "typst",
+      "pillar": "figures",
+      "status": "live",
+      "title": {
+        "de": "Ein Import für Abbildungen in jedem Famulus-Dokument",
+        "en": "One import for figures in every Famulus document",
+        "fr": "Un seul import pour les figures de tout document Famulus",
+        "it": "Un solo import per le figure di ogni documento Famulus",
+        "es": "Una sola importación para las figuras de cualquier documento Famulus",
+        "pl": "Jeden import dla rycin w każdym dokumencie Famulus"
+      },
+      "anchor": "#item-typst",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=de#item-typst",
+        "en": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=en#item-typst",
+        "fr": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=fr#item-typst",
+        "it": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=it#item-typst",
+        "es": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=es#item-typst",
+        "pl": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=pl#item-typst"
+      }
+    },
+    {
+      "id": "solved",
+      "pillar": "figures",
+      "status": "live",
+      "title": {
+        "de": "Gelöste Gestaltungsfragen, jede durch eine Darstellung geprüft",
+        "en": "Solved layout problems, each checked by a rendering",
+        "fr": "Des problèmes de mise en forme résolus, chacun vérifié par un rendu",
+        "it": "Problemi di impaginazione risolti, ciascuno verificato da una resa",
+        "es": "Problemas de maquetación resueltos, cada uno comprobado con una representación",
+        "pl": "Rozwiązane problemy składu, każdy sprawdzony wyrenderowaniem"
+      },
+      "anchor": "#item-solved",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=de#item-solved",
+        "en": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=en#item-solved",
+        "fr": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=fr#item-solved",
+        "it": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=it#item-solved",
+        "es": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=es#item-solved",
+        "pl": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=pl#item-solved"
+      }
+    },
+    {
+      "id": "scene",
+      "pillar": "scenes",
+      "status": "live",
+      "title": {
+        "de": "Die Sonnenuhr ObjID18 im Raum",
+        "en": "The sundial ObjID18 in space",
+        "fr": "Le cadran solaire ObjID18 dans l'espace",
+        "it": "La meridiana ObjID18 nello spazio",
+        "es": "El reloj de sol ObjID18 en el espacio",
+        "pl": "Zegar słoneczny ObjID18 w przestrzeni"
+      },
+      "anchor": "#item-scene",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=de#item-scene",
+        "en": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=en#item-scene",
+        "fr": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=fr#item-scene",
+        "it": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=it#item-scene",
+        "es": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=es#item-scene",
+        "pl": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=pl#item-scene"
+      }
+    },
+    {
+      "id": "learning",
+      "pillar": "learning",
+      "status": "progress",
+      "title": {
+        "de": "Lernen, welche Abbildung eine Aussage trägt",
+        "en": "Learning which figure carries a statement",
+        "fr": "Apprendre quelle figure porte un énoncé",
+        "it": "Imparare quale figura porta un enunciato",
+        "es": "Aprender qué figura sostiene un enunciado",
+        "pl": "Uczenie się, jaka rycina niesie stwierdzenie"
+      },
+      "anchor": "#item-learning",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=de#item-learning",
+        "en": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=en#item-learning",
+        "fr": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=fr#item-learning",
+        "it": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=it#item-learning",
+        "es": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=es#item-learning",
+        "pl": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=pl#item-learning"
+      }
+    },
+    {
+      "id": "subscribe",
+      "pillar": "platform",
+      "status": "live",
+      "title": {
+        "de": "Famulus Visualization per Mail",
+        "en": "Famulus Visualization by mail",
+        "fr": "Famulus Visualization par courriel",
+        "it": "Famulus Visualization per posta elettronica",
+        "es": "Famulus Visualization por correo",
+        "pl": "Famulus Visualization pocztą elektroniczną"
+      },
+      "anchor": "#item-subscribe",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=de#item-subscribe",
+        "en": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=en#item-subscribe",
+        "fr": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=fr#item-subscribe",
+        "it": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=it#item-subscribe",
+        "es": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=es#item-subscribe",
+        "pl": "https://famulus.lettre.ai/news/visualization/?issue=2026-10&lang=pl#item-subscribe"
+      }
+    }
+  ]
+}

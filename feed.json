@@ -54,6 +54,24 @@
         "to": "2026-10-22"
       },
       "items": 9
+    },
+    {
+      "id": "visualization",
+      "current": "2026-10",
+      "url": "https://famulus.lettre.ai/news/visualization/",
+      "title": {
+        "de": "Famulus Visualization, Oktober 2026",
+        "en": "Famulus Visualization, October 2026",
+        "fr": "Famulus Visualization, octobre 2026",
+        "it": "Famulus Visualization, ottobre 2026",
+        "es": "Famulus Visualization, octubre de 2026",
+        "pl": "Famulus Visualization, październik 2026"
+      },
+      "period": {
+        "from": "2026-10-22",
+        "to": "2026-10-22"
+      },
+      "items": 5
     }
   ]
 }
