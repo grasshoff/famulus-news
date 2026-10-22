@@ -6,7 +6,8 @@
 
   var box = document.getElementById("principles");
   var banner = document.getElementById("rv-banner");
-  if (!box && !banner) return;
+  var why = document.getElementById("why-box");
+  if (!box && !banner && !why) return;
   var DATA = JSON.parse(document.getElementById("news-data").textContent);
   var ROOT = document.body.getAttribute("data-root") || "";
   var KEYS = ["justified", "traceable", "validated", "data", "grounded"];
@@ -58,6 +59,20 @@
         var all = el("a", null, p.all + " →"); all.href = ROOT + "?lang=" + lang() + "#principles"; foot.appendChild(all);
       }
       box.appendChild(foot);
+    }
+    if (why) {
+      var only = why.getAttribute("data-only");
+      if (!only || only === document.body.getAttribute("data-member")) {
+        var w0 = u.reference_why;
+        why.textContent = "";
+        why.appendChild(el("p", "why-k", w0.kicker));
+        var h2 = el("h2", null, w0.title); h2.id = "why-title";
+        why.appendChild(h2);
+        var body = el("div", "why-b");
+        w0.paras.forEach(function (t) { body.appendChild(el("p", null, t)); });
+        why.appendChild(body);
+        why.hidden = false;
+      }
     }
     if (banner) {
       var r = u.family;

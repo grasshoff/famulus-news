@@ -624,3 +624,16 @@ html:not(.ready) .reveal { opacity: 1; transform: none; }
   .stage.enter-next .st-body, .stage.enter-prev .st-body, .stage .st-num { animation: none !important; }
   .card[aria-current="true"] { transform: none; }
 }
+
+/* Why reference: the manifesto band (landing) and panel (Famulus Reference) */
+.why-band { padding: 4.6rem 0 4.2rem; background: radial-gradient(900px 380px at 15% 0%, rgba(196, 161, 90, .16), transparent 60%), var(--paper); border-bottom: 1px solid var(--line); }
+.why-in { max-width: 1100px; display: grid; gap: 1rem 4rem; grid-template-columns: 1fr; }
+.why-k { margin: 0; font-family: var(--sans); font-size: .82rem; font-weight: 650; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-deep); }
+.why-in h2, .why-panel h2 { margin: 0; font-family: var(--display); font-weight: 560; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.02; letter-spacing: -.025em; color: var(--oxford); max-width: 14ch; }
+.why-b p { margin: 0 0 1rem; font-family: var(--serif); font-size: clamp(1.1rem, 2vw, 1.32rem); line-height: 1.55; color: var(--ink); }
+.why-b p:first-child { font-family: var(--display); font-size: clamp(1.25rem, 2.4vw, 1.6rem); line-height: 1.4; color: var(--oxford); }
+.why-b p:last-child { margin-bottom: 0; padding-left: 1rem; border-left: 3px solid var(--gold); color: var(--muted); }
+@media (min-width: 960px) { .why-in { grid-template-columns: minmax(0, .9fr) minmax(0, 1.4fr); align-items: start; } .why-in .why-k { grid-column: 1 / -1; } }
+.why-panel { margin: .4rem auto 2rem; padding: 1.6rem 1.4rem; background: var(--paper); border: 1px solid var(--line); border-top: 4px solid var(--gold); box-shadow: 0 14px 34px rgba(0, 21, 46, .07); }
+.why-panel h2 { font-size: clamp(1.6rem, 3.6vw, 2.4rem); margin: .3rem 0 1rem; max-width: none; }
+.why-panel .why-b p:first-child { font-size: clamp(1.15rem, 2vw, 1.35rem); }
