@@ -21,37 +21,37 @@
   "mail": {
     "de": {
       "subject": "Famulus Science, Oktober 2026: Scientific Discovery",
-      "preview": "Wissenschaftliche Entdeckung wird zur Wissenschaft: Jahrzehnte der Forschung darüber, wie Entdeckungen entstehen, jetzt mit Famulus ausgeführt. In dieser Ausgabe: kausales Schließen, Hypothesenbildung, Zusammenarbeit, Publikation und Begutachtung unter Kollegen; die Grundlagen der computergestützten Erkenntnistheorie; alle Aufsätze zur Kausalität, öffentlich; und eine Anwendung auf die Bellsche Ungleichung.",
+      "preview": "Wissenschaftliche Entdeckung wird zur Wissenschaft: Jahrzehnte der Forschung darüber, wie Entdeckungen entstehen, jetzt mit Famulus ausgeführt. In dieser Ausgabe: kausales Schließen, Hypothesenbildung, Zusammenarbeit, Publikation und Diskussion unter Kollegen; die Grundlagen der computergestützten Erkenntnistheorie; alle Aufsätze zur Kausalität, öffentlich; und eine Anwendung auf die Bellsche Ungleichung.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=de",
       "url_tailnet": null
     },
     "en": {
       "subject": "Famulus Science, October 2026: Scientific Discovery",
-      "preview": "Scientific discovery becomes a science: decades of research on how discoveries are made, now carried out with Famulus. In this issue: causal reasoning, hypothesis building, working together, publication and peer review; the foundations of computational epistemology; all causal papers, public; and an application to Bell's inequality.",
+      "preview": "Scientific discovery becomes a science: decades of research on how discoveries are made, now carried out with Famulus. In this issue: causal reasoning, hypothesis building, working together, publication and discussion among colleagues; the foundations of computational epistemology; all causal papers, public; and an application to Bell's inequality.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=en",
       "url_tailnet": null
     },
     "fr": {
       "subject": "Famulus Science, octobre 2026 : Scientific Discovery",
-      "preview": "La découverte scientifique devient une science : des décennies de recherche sur la naissance des découvertes, désormais mises en œuvre avec Famulus. Dans ce numéro : raisonnement causal, formation d’hypothèses, travail en commun, publication et évaluation par les pairs ; les fondements de l’épistémologie computationnelle ; tous les articles sur la causalité, publics ; et une application à l’inégalité de Bell.",
+      "preview": "La découverte scientifique devient une science : des décennies de recherche sur la naissance des découvertes, désormais mises en œuvre avec Famulus. Dans ce numéro : raisonnement causal, formation d’hypothèses, travail en commun, publication et discussion entre pairs ; les fondements de l’épistémologie computationnelle ; tous les articles sur la causalité, publics ; et une application à l’inégalité de Bell.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=fr",
       "url_tailnet": null
     },
     "it": {
       "subject": "Famulus Science, ottobre 2026: Scientific Discovery",
-      "preview": "La scoperta scientifica diventa una scienza: decenni di ricerca su come nascono le scoperte, ora messi in opera con Famulus. In questo numero: ragionamento causale, formazione di ipotesi, collaborazione, pubblicazione e revisione tra pari; i fondamenti dell’epistemologia computazionale; tutti gli articoli sulla causalità, pubblici; e un’applicazione alla disuguaglianza di Bell.",
+      "preview": "La scoperta scientifica diventa una scienza: decenni di ricerca su come nascono le scoperte, ora messi in opera con Famulus. In questo numero: ragionamento causale, formazione di ipotesi, collaborazione, pubblicazione e discussione tra colleghi; i fondamenti dell’epistemologia computazionale; tutti gli articoli sulla causalità, pubblici; e un’applicazione alla disuguaglianza di Bell.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=it",
       "url_tailnet": null
     },
     "es": {
       "subject": "Famulus Science, octubre de 2026: Scientific Discovery",
-      "preview": "El descubrimiento científico se convierte en ciencia: décadas de investigación sobre cómo nacen los descubrimientos, ahora puestas en práctica con Famulus. En este número: razonamiento causal, formación de hipótesis, trabajo conjunto, publicación y revisión por pares; los fundamentos de la epistemología computacional; todos los artículos sobre causalidad, públicos; y una aplicación a la desigualdad de Bell.",
+      "preview": "El descubrimiento científico se convierte en ciencia: décadas de investigación sobre cómo nacen los descubrimientos, ahora puestas en práctica con Famulus. En este número: razonamiento causal, formación de hipótesis, trabajo conjunto, publicación y discusión entre colegas; los fundamentos de la epistemología computacional; todos los artículos sobre causalidad, públicos; y una aplicación a la desigualdad de Bell.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=es",
       "url_tailnet": null
     },
     "pl": {
       "subject": "Famulus Science, październik 2026: Scientific Discovery",
-      "preview": "Odkrycie naukowe staje się nauką: dziesięciolecia badań nad tym, jak powstają odkrycia, teraz w działaniu z Famulusem. W tym wydaniu: rozumowanie przyczynowe, tworzenie hipotez, wspólna praca, publikacja i recenzja naukowa; podstawy epistemologii obliczeniowej; wszystkie artykuły o przyczynowości, publicznie dostępne; oraz zastosowanie do nierówności Bella.",
+      "preview": "Odkrycie naukowe staje się nauką: dziesięciolecia badań nad tym, jak powstają odkrycia, teraz w działaniu z Famulusem. W tym wydaniu: rozumowanie przyczynowe, tworzenie hipotez, wspólna praca, publikacja i dyskusja w gronie naukowców; podstawy epistemologii obliczeniowej; wszystkie artykuły o przyczynowości, publicznie dostępne; oraz zastosowanie do nierówności Bella.",
       "url": "https://famulus.lettre.ai/news/science/?issue=2026-10&lang=pl",
       "url_tailnet": null
     }
@@ -158,12 +158,12 @@
       "pillar": "discovery",
       "status": "live",
       "title": {
-        "de": "Publikation und Begutachtung, Satz für Satz",
-        "en": "Publication and peer review, sentence by sentence",
-        "fr": "Publication et évaluation par les pairs, phrase par phrase",
-        "it": "Pubblicazione e revisione tra pari, frase per frase",
-        "es": "Publicación y revisión por pares, frase por frase",
-        "pl": "Publikacja i recenzja naukowa, zdanie po zdaniu"
+        "de": "Publizieren, jeder Satz mit seinen Gründen",
+        "en": "Publishing, every sentence with its grounds",
+        "fr": "Publier, chaque phrase avec ses raisons",
+        "it": "Pubblicare, ogni frase con le sue ragioni",
+        "es": "Publicar, cada frase con sus razones",
+        "pl": "Publikowanie: każde zdanie z uzasadnieniem"
       },
       "anchor": "#item-publication",
       "url": {

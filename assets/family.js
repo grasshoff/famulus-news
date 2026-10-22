@@ -42,6 +42,21 @@
     return ROOT + rest + (rest.indexOf("?") >= 0 ? "&" : "?") + "lang=" + S.lang + hash;
   }
   function linkLabel(l) { return l.name || ui().link[l.kind] || l.kind; }
+  /* "Famulus Reference": the family name in the text colour, the member in gold. */
+  function famulusMark(node, text) {
+    node.textContent = "";
+    String(text).split(/(Famulus (?:Reference|Science|University|Visualization|News|Notebook|Lektor|Repro|Proof))/).forEach(function (part, k) {
+      if (!part) return;
+      if (k % 2) {
+        var w = el("span", "fm-name");
+        w.appendChild(el("span", "fm", "Famulus"));
+        w.appendChild(document.createTextNode(" "));
+        w.appendChild(el("span", "fm-sub", part.slice(8)));
+        node.appendChild(w);
+      } else node.appendChild(document.createTextNode(part));
+    });
+    return node;
+  }
 
   // ------------------------------------------------------------------ language
   function pickLanguage() {
@@ -80,8 +95,8 @@
   function renderHero() {
     var c = DATA.highlights.celebrate, t = c.text[S.lang];
     $("hx-kicker").textContent = t.kicker;
-    $("hx-title").textContent = t.title;
-    $("hx-text").textContent = t.text;
+    famulusMark($("hx-title"), t.title);
+    famulusMark($("hx-text"), t.text);
     $("hx-frcap").textContent = t.fr_caption;
     document.title = t.title + " | " + ui().site_name;
     var cta = $("hx-cta");
@@ -123,8 +138,8 @@
       var a = el("article", "tile reveal");
       a.style.setProperty("--accent", accentOf(it.member));
       a.style.transitionDelay = (k * 90) + "ms";
-      a.appendChild(el("p", "tile-k", it.member ? mname(it.member) : ui().site_name));
-      a.appendChild(rich(el("h3"), t.title));
+      a.appendChild(famulusMark(el("p", "tile-k"), it.member ? mname(it.member) : ui().site_name));
+      a.appendChild(famulusMark(el("h3"), t.title));
       a.appendChild(rich(el("p", "tile-t"), t.text));
       var ls = el("div", "tile-l");
       it.links.forEach(function (l, j) {
@@ -276,9 +291,9 @@
   var STEPS = ["causal", "hypotheses", "together", "publish", "review"];
   function renderDiscovery() {
     var d = fam().discovery;
-    $("dx-kicker").textContent = d.kicker;
+    famulusMark($("dx-kicker"), d.kicker);
     $("dx-title").textContent = d.title;
-    $("dx-text").textContent = d.text;
+    famulusMark($("dx-text"), d.text);
     var ol = $("dx-steps");
     ol.textContent = "";
     STEPS.forEach(function (k, i) {
@@ -306,10 +321,7 @@
       var c = el("article", "mcard reveal");
       c.style.setProperty("--accent", m.accent);
       c.style.transitionDelay = (k * 90) + "ms";
-      var h = el("h3");
-      h.appendChild(el("span", "mc-f", "Famulus "));
-      h.appendChild(document.createTextNode(t.name));
-      c.appendChild(h);
+      c.appendChild(famulusMark(el("h3"), "Famulus " + t.name));
       c.appendChild(el("p", "mc-a", t.audience));
       c.appendChild(el("p", "mc-t", t.tagline));
       var meta = el("p", "mc-m", f.latest + ": " + m.title[S.lang] + " · " + fill(ui().n_items, { n: m.n_items }));

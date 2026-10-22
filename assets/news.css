@@ -584,3 +584,43 @@ html:not(.ready) .reveal { opacity: 1; transform: none; }
 .fx-respond-in.solo { grid-template-columns: minmax(0, 46rem) !important; justify-content: center; }
 .papers .rd-h { margin-top: 1.6rem; }
 .reading-l { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; font-size: .95rem; line-height: 1.5; max-width: 60rem; }
+
+/* ------------------------------------------------------------------ one Famulus, its members in gold */
+.brand span { font-style: normal; font-weight: 560; color: var(--gold); }
+.fam-up { margin-left: .2rem; padding: .1rem .5rem; font-family: var(--sans); font-size: .72rem; font-weight: 650; letter-spacing: .1em; text-transform: uppercase; color: rgba(244, 239, 228, .7); border: 1px solid rgba(244, 239, 228, .28); border-radius: 2px; text-decoration: none; white-space: nowrap; }
+.fam-up:hover { color: #fff; border-color: var(--gold); }
+@media (max-width: 560px) { .fam-up { display: none; } }
+.fm-name { white-space: nowrap; }
+.fm-sub { color: var(--gold-deep); }
+.fx-hero .fm, .dx-band .fm, .princ-band .fm { color: #fff; }
+.fx-hero .fm-sub, .dx-band .fm-sub { color: var(--gold); }
+.tile-k .fm { color: var(--oxford); }
+.tile-k .fm-sub { color: var(--accent); }
+.mcard h3 .fm-sub { color: var(--accent); }
+
+/* five principles side by side on wide screens */
+@media (min-width: 1100px) { body.member .pr-grid, .princ-band .pr-grid { grid-template-columns: repeat(5, 1fr); } }
+@media (min-width: 760px) and (max-width: 1099px) { .pr-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* turning to the next item: the whole sheet swings in, the parts follow one after another */
+@media (min-width: 960px) {
+  .stage { perspective: 1400px; }
+  .stage.enter-next .st-body, .stage.enter-prev .st-body { transform-origin: center left; }
+  .stage.enter-next .st-body { animation: page-next .55s var(--ease) both; }
+  .stage.enter-prev .st-body { animation: page-prev .55s var(--ease) both; }
+  .stage.enter-next .st-num, .stage.enter-prev .st-num { animation: num-in .7s var(--ease) both; }
+  .stage.enter-next .st-bar i, .stage.enter-prev .st-bar i { transition: width .55s var(--ease); }
+}
+.stage.enter-next .st-body > *, .stage.enter-prev .st-body > * { animation-duration: .5s; }
+.stage .st-body > :nth-child(3) { animation-delay: .1s; }
+.stage .st-body > :nth-child(4) { animation-delay: .18s; }
+.stage .st-body > :nth-child(5) { animation-delay: .26s; }
+.stage .st-body > :nth-child(6) { animation-delay: .34s; }
+@keyframes page-next { from { opacity: 0; transform: translateX(48px) rotateY(-7deg) scale(.985); } to { opacity: 1; transform: none; } }
+@keyframes page-prev { from { opacity: 0; transform: translateX(-48px) rotateY(7deg) scale(.985); } to { opacity: 1; transform: none; } }
+@keyframes num-in { from { opacity: 0; transform: translateY(-24px) scale(.8); } to { opacity: .16; transform: none; } }
+.card[aria-current="true"] { transition: box-shadow .3s var(--ease), transform .3s var(--ease); transform: translateX(4px); }
+@media (prefers-reduced-motion: reduce) {
+  .stage.enter-next .st-body, .stage.enter-prev .st-body, .stage .st-num { animation: none !important; }
+  .card[aria-current="true"] { transform: none; }
+}

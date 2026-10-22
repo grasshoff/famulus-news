@@ -40,6 +40,21 @@
     return parent;
   }
   function tx(it) { return it.text[S.lang]; }
+  /* "Famulus Reference": the family name in the text colour, the member in gold. */
+  function famulusMark(node, text) {
+    node.textContent = "";
+    String(text).split(/(Famulus (?:Reference|Science|University|Visualization|News|Notebook|Lektor|Repro|Proof))/).forEach(function (part, k) {
+      if (!part) return;
+      if (k % 2) {
+        var w = el("span", "fm-name");
+        w.appendChild(el("span", "fm", "Famulus"));
+        w.appendChild(document.createTextNode(" "));
+        w.appendChild(el("span", "fm-sub", part.slice(8)));
+        node.appendChild(w);
+      } else node.appendChild(document.createTextNode(part));
+    });
+    return node;
+  }
   function visible() {
     return ITEMS.map(function (it, k) { return k; }).filter(function (k) { return S.filter === "all" || ITEMS[k].pillar === S.filter; });
   }
@@ -104,8 +119,8 @@
   function renderChrome() {
     var u = ui();
     $("h-kicker").textContent = u.issue + " " + DATA.number + " · " + fmtDateLong(DATA.period.from) + " – " + fmtDateLong(DATA.period.to) + " · " + fill(u.n_items, { n: ITEMS.length });
-    $("h-title").textContent = DATA.title[S.lang];
-    $("h-lead").textContent = DATA.lead[S.lang];
+    famulusMark($("h-title"), DATA.title[S.lang]);
+    famulusMark($("h-lead"), DATA.lead[S.lang]);
     document.title = DATA.title[S.lang] + " | " + u.site_name;
     $("src-sum").textContent = u.sources;
     $("src-txt").textContent = u.sources_text;
@@ -581,9 +596,21 @@
       var tag = (e.target && e.target.tagName) || "";
       if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
       if (e.key === "Escape" && S.sheet) { closeSheet(); return; }
+      /* Up/down scroll line by line (the open item on a wide screen or in the sheet, else the page);
+         left/right and Page Up/Page Down turn to the previous or next news item. */
+      var body = $("stage").querySelector(".st-body");
+      var inItem = (desk.matches || S.sheet) && body && body.scrollHeight > body.clientHeight + 4;
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        if (!inItem) return;                                    // the browser scrolls the page
+        e.preventDefault();
+        body.scrollBy({ top: e.key === "ArrowDown" ? 48 : -48, behavior: reduce ? "auto" : "smooth" });
+        return;
+      }
       if (!desk.matches && !S.sheet) return;
-      if (e.key === "ArrowRight" || e.key === "ArrowDown" && tag !== "BUTTON" || e.key === "j") { e.preventDefault(); step(1); }
-      else if (e.key === "ArrowLeft" || e.key === "ArrowUp" && tag !== "BUTTON" || e.key === "k") { e.preventDefault(); step(-1); }
+      if (e.key === "ArrowRight" || e.key === "PageDown" || e.key === "j") { e.preventDefault(); step(1); }
+      else if (e.key === "ArrowLeft" || e.key === "PageUp" || e.key === "k") { e.preventDefault(); step(-1); }
+      else if (e.key === "Home") { e.preventDefault(); var v = visible(); if (v.length) go(v[0]); }
+      else if (e.key === "End") { e.preventDefault(); var w = visible(); if (w.length) go(w[w.length - 1]); }
     });
     var st = $("stage"), x0 = 0, y0 = 0, t0 = 0, tracking = false;
     st.addEventListener("touchstart", function (e) {
