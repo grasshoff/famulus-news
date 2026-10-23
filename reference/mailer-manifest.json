@@ -5,7 +5,7 @@
   "number": 1,
   "period": {
     "from": "2026-10-12",
-    "to": "2026-10-22"
+    "to": "2026-10-23"
   },
   "published": null,
   "languages": [
@@ -65,6 +65,28 @@
     "pl": "https://famulus.lettre.ai/news/reference/guide/?lang=pl"
   },
   "items": [
+    {
+      "id": "what-is-famulus",
+      "pillar": "platform",
+      "status": "live",
+      "title": {
+        "de": "Was Famulus ist – in sieben Gründen",
+        "en": "What Famulus is, in seven reasons",
+        "fr": "Ce qu'est Famulus, en sept raisons",
+        "it": "Che cos'è Famulus, in sette ragioni",
+        "es": "Qué es Famulus, en siete razones",
+        "pl": "Czym jest Famulus – w siedmiu powodach"
+      },
+      "anchor": "#item-what-is-famulus",
+      "url": {
+        "de": "https://famulus.lettre.ai/news/reference/?issue=2026-10&lang=de#item-what-is-famulus",
+        "en": "https://famulus.lettre.ai/news/reference/?issue=2026-10&lang=en#item-what-is-famulus",
+        "fr": "https://famulus.lettre.ai/news/reference/?issue=2026-10&lang=fr#item-what-is-famulus",
+        "it": "https://famulus.lettre.ai/news/reference/?issue=2026-10&lang=it#item-what-is-famulus",
+        "es": "https://famulus.lettre.ai/news/reference/?issue=2026-10&lang=es#item-what-is-famulus",
+        "pl": "https://famulus.lettre.ai/news/reference/?issue=2026-10&lang=pl#item-what-is-famulus"
+      }
+    },
     {
       "id": "karman",
       "pillar": "editions",
