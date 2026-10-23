@@ -101,7 +101,7 @@
     /* the seven principles, in their rank, each with its one line */
     var ol = $("hx-points");
     ol.textContent = "";
-    ["justified", "traceable", "validated", "data", "grounded", "collaborative", "specialists"].forEach(function (k, i) {
+    ["justified", "traceable", "validated", "data", "grounded", "collaborative", "experts"].forEach(function (k, i) {
       var li = el("li", "hx-p");
       li.style.animationDelay = (reduce ? 0 : 250 + i * 160) + "ms";
       li.appendChild(el("span", "hx-n", String(i + 1)));

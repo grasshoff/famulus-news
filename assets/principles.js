@@ -10,7 +10,7 @@
   if (!box && !banner && !why) return;
   var DATA = JSON.parse(document.getElementById("news-data").textContent);
   var ROOT = document.body.getAttribute("data-root") || "";
-  var KEYS = ["justified", "traceable", "validated", "data", "grounded", "collaborative", "specialists"];
+  var KEYS = ["justified", "traceable", "validated", "data", "grounded", "collaborative", "experts"];
 
   function el(tag, cls, text) {
     var e = document.createElement(tag);
