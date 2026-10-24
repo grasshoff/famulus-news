@@ -583,6 +583,7 @@ html:not(.ready) .reveal { opacity: 1; transform: none; }
 }
 .fx-respond-in.solo { grid-template-columns: minmax(0, 46rem) !important; justify-content: center; }
 .papers .rd-h { margin-top: 1.6rem; }
+.papers .rd-g { margin: 1.1rem 0 .5rem; font-family: var(--sans); font-size: .8rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; color: var(--gold-deep); }
 .reading-l { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; font-size: .95rem; line-height: 1.5; max-width: 60rem; }
 
 /* ------------------------------------------------------------------ one Famulus, its members in gold */

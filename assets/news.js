@@ -162,9 +162,12 @@
     box.appendChild(ul);
     if (DATA.readings && DATA.readings.length) {
       box.appendChild(el("h2", "rd-h", u.family.branch.readings));
-      var rl = el("ul", "reading-l");
-      DATA.readings.forEach(function (r) { rl.appendChild(el("li", null, r)); });
-      box.appendChild(rl);
+      DATA.readings.forEach(function (g) {
+        if (g.title) box.appendChild(el("h3", "rd-g", g.title[S.lang] || g.title.en));
+        var rl = el("ul", "reading-l");
+        g.items.forEach(function (r) { rl.appendChild(el("li", null, r)); });
+        box.appendChild(rl);
+      });
     }
   }
   function renderFilters() {
